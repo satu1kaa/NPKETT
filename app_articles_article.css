@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: "PT Sans";
+    font-weight: 400;
+}
+input::-ms-clear {
+    display: none;
+}
+ul li {
+    list-style: none;
+}
+
+/* Header! */
+
+.header_container {
+    padding: 25px 405px;
+}
+
+.header_info {
+    background-color: #03608f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_info_phone {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #eaeff3;
+}
+.header_info_button {
+    background-color: #eaeff3;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 100%;
+    color: #03608f;
+    padding: 11px 36px;
+}
+
+.header_menu {
+    background-color: #035178;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 21px;
+    color: #eaeff3;
+}
+
+.header_menu_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_margin {
+    margin-right: 8px;
+}
+
+a {
+    color: #eaeff3;
+    text-decoration: none;
+}
+
+/* Footer! */
+
+.footer_container {
+    padding: 60px 405px 45px 405px;
+    background-color: #035178;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.caption {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #ffffff;
+}
+
+.footer_list {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer_links_list {
+    margin-right: 125px;
+}
+
+footer li {
+    margin-top: 12px;
+}
+
+.footer_license p {
+    margin-bottom: 30px;
+}
+
+.footer_company p {
+    margin-bottom: 30px;
+}
+
+.footer_links_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_down {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.footer_copyright {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.footer_last_text {
+    margin-top: 25px;
+}
+
+.page_container {
+    padding: 65px 405px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background: #e5e5e5;
+}
+
+.main_services {
+    font-size: 16px;
+    line-height: 150%;
+    opacity: 0.3;
+    padding-bottom: 32px;
+}
+
+hr {
+    height: 3;
+    border: none;
+    border-top: 1px solid #333;
+    margin-top: 13px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 110%;
+    margin-bottom: 30px;
+}
+
+.row {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.row_left {
+    margin-right: 30px;
+    width: 50%;
+}
+.row_right {
+    display: flex;
+    flex-direction: column;
+    background: #00679c;
+    padding: 46px 111px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.assortiment_all {
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+    color: #f3f3f3;
+    margin-bottom: 16px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eecc1c;
+    font-size: 18px;
+    line-height: 100%;
+    color: #03608f;
+    padding: 14px 69px;
+    width: 100%;
+}
+.price img {
+    padding-right: 10px;
+}
+
+.more_info {
+    background: #00679c;
+    padding: 16px 71.5px;
+    font-size: 18px;
+    color: #eaeff3;
+    border: 1px solid #eaeff3;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    margin-bottom: 16px;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+    opacity: 0.3;
+}
+
+.cards {
+    display: flex;
+}
+
+.card_one {
+    background: #ffffff;
+    margin-right: 30px;
+    padding: 16px;
+}
+
+.card_two {
+    background: #ffffff;
+    padding: 16px;
+}
+
+.cards img {
+    margin-bottom: 16px;
+}
+
+.card_text_one {
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.card_text_two {
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}

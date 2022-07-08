@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: "PT Sans";
+    font-weight: 400;
+}
+input::-ms-clear {
+    display: none;
+}
+ul li {
+    list-style: none;
+}
+
+.header_container {
+    padding: 25px 405px;
+}
+
+.header_info {
+    background-color: #03608f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_info_phone {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #eaeff3;
+}
+.header_info_button {
+    background-color: #eaeff3;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 100%;
+    color: #03608f;
+    padding: 11px 36px;
+}
+
+.header_menu {
+    background-color: #035178;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 21px;
+    color: #eaeff3;
+}
+
+.header_menu_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_margin {
+    margin-right: 8px;
+}
+
+a {
+    color: #eaeff3;
+    text-decoration: none;
+}
+
+/* Footer! */
+
+.footer_container {
+    padding: 60px 405px 45px 405px;
+    background-color: #035178;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.caption {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #ffffff;
+}
+
+.footer_list {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer_links_list {
+    margin-right: 125px;
+}
+
+footer li {
+    margin-top: 12px;
+}
+
+.footer_license p {
+    margin-bottom: 30px;
+}
+
+.footer_company p {
+    margin-bottom: 30px;
+}
+
+.footer_links_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_down {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.footer_copyright {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.footer_last_text {
+    margin-top: 25px;
+}
+
+/* Page 1 */
+
+.section_first {
+    background-image: url(./img/intro/firstPic.png);
+    background-size: cover;
+}
+
+.container {
+    padding: 0 405px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section_first_price {
+    width: fit-content;
+    padding: 50px 65px;
+    background-color: #005078f2;
+    display: flex;
+    flex-direction: column;
+}
+
+.production {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+    color: #eaeff3;
+    margin-bottom: 44px;
+}
+
+.button_download {
+    display: flex;
+    background-color: #eecc1c;
+    font-size: 18px;
+    line-height: 100%;
+    color: #03608f;
+    margin-bottom: 22px;
+    align-items: center;
+    justify-content: center;
+    padding: 31px 55px;
+}
+
+.button_download img {
+    margin-right: 10px;
+}
+
+.button_catalog {
+    background-color: #005078f2;
+    font-size: 18px;
+    line-height: 100%;
+    color: #ffffff;
+    border: 1px solid #eaeff3;
+    padding: 16px 111px;
+}
+
+.section_second {
+    background: #e5e5e5;
+}
+
+.page_container {
+    padding: 65px 405px;
+    display: flex;
+    width: 100%;
+}
+
+.second_pic {
+    padding-right: 95px;
+}
+
+.second_list li {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #035178;
+}
+
+.second_list li:hover {
+    color: #84bfdc;
+    cursor: pointer;
+}
+
+.button_services {
+    font-size: 18px;
+    line-height: 100%;
+    color: #03608f;
+    border: 1px solid #03608f;
+    background-color: #e5e5e5;
+    margin-top: 20px;
+    padding: 16px 60px;
+}
+
+.button_services:hover {
+    background-color: rgba(9, 128, 186, 0.5);
+    cursor: pointer;
+}
+
+.section_third {
+    background: #ffffff;
+    display: flex;
+}
+
+.third_container {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    margin-right: 30px;
+}
+
+.third_text_big {
+    font-size: 32px;
+    line-height: 140%;
+}
+
+.third_text_small {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.third_list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.button_third {
+    padding: 18px 16px;
+    background: #ffffff;
+    border: 1px solid rgba(8, 84, 121, 0.5);
+    text-align: left;
+    color: #1070a2;
+    text-decoration: underline;
+}
+
+.button_third:hover {
+    background: rgba(9, 128, 186, 0.5);
+    cursor: pointer;
+}
+
+.button_third + .button_third {
+    margin-top: 12px;
+}
+
+.button_news {
+    font-size: 18px;
+    line-height: 100%;
+    padding: 18px 16px;
+    background: #ffffff;
+    border: 1px solid #00679c;
+    color: #00679c;
+    margin-top: 12px;
+}
+
+.button_news:hover {
+    background-color: rgba(9, 128, 186, 0.5);
+    cursor: pointer;
+}
+
+.section_fourth {
+    background-color: #03608f;
+}
+
+.section_fourth .page_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth_number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth_car {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_fourth img {
+    padding-right: 25px;
+}
+
+.section_fourth p {
+    font-size: 32px;
+    line-height: 120%;
+    color: #f3f3f3;
+}
+
+.section_fifth p {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.fifth_container {
+    width: 100%;
+}
+
+.fifth_line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_six {
+    background-image: url(./img/intro/intersect.svg);
+    background-color: #03608f;
+    background-size: cover;
+}
+
+.six_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.six_partner {
+    font-size: 48px;
+    line-height: 120%;
+    color: #f3f3f3;
+    margin-right: 126px;
+}
+
+.six_buy {
+    font-size: 24px;
+    line-height: 120%;
+    color: #f3f3f3;
+}
+
+.six_buy button {
+    margin-top: 10px;
+    background-color: #eecc1c;
+    padding: 16px 70px;
+}
