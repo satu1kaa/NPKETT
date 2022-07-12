@@ -7,6 +7,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>НПК ЭТТ</title>
      <link rel="stylesheet" href="./app_bootstrap.css">
+     <link rel="stylesheet" href="./app_media.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -17,12 +18,15 @@
           <div class="header_container header_info">
                <div class="header_info_logo"><img src="./img/logo.svg" alt=""></div>
                <div class="header_info_phone">8 (3822) 60-99-61</div>
-               <button class="header_info_button">Заказать звонок</button>
+               <div class="media_button">
+                    <button class="header_info_button">Заказать звонок</button>
+                    <div class="header_burger"><img src="./img/media/menu.svg" alt=""></div>
+               </div>
           </div>
           <div class="header_container header_menu">
                <ul class="header_menu_list">
-                    <li><a class="list_margin" href="">продукция</a><img src="/img/arrow.svg" alt=""></li>
-                    <li><a class="list_margin" href="">услуги</a><img src="/img/arrow.svg" alt=""></li>
+                    <li><a class="list_margin" href="./index_products.html">продукция</a><img src="./img/arrow.svg" alt=""></li>
+                    <li><a class="list_margin" href="">услуги</a><img src="./img/arrow.svg" alt=""></li>
                     <li><a href="">лицензии</a></li>
                     <li><a href="">новости</a></li>
                     <li><a href="">поставщикам</a></li>
@@ -30,8 +34,23 @@
                     <li><a href="">контакты</a></li>
                </ul>
           </div>
+          <div class="burger_menu">
+               <img src="./img/media/menu_cross.svg" alt="" class="cross">
+               <ul class="header_menu_list">
+                    <li><a class="list_margin" href="">продукция</a><img src="./img/arrow.svg" alt=""></li>
+                    <li><a class="list_margin" href="">услуги</a><img src="./img/arrow.svg" alt=""></li>
+                    <li><a href="">лицензии</a></li>
+                    <li><a href="">новости</a></li>
+                    <li><a href="">поставщикам</a></li>
+                    <li><a href="">о компании</a></li>
+                    <li><a href="">контакты</a></li>
+               </ul>
+               <div class="header_info_phone">8 (3822) 60-99-61</div>
+               <button class="header_info_button">Заказать звонок</button>
+          </div>
+
      </header>
-     <main>
+     <!-- <main>
           <section class="section_first">
                <div class="container">
                     <div class="section_first_price">
@@ -118,7 +137,7 @@
                     </div>
                </div>
           </section>
-     </main>
+     </main> -->
      <footer>
           <div class="footer_container">
                <div class="footer_container_logo"><img src="./img/logo.svg" alt=""></div>
@@ -126,6 +145,7 @@
                     <div class="footer_links_list">
                          <div class="footer_products">
                               <p class="caption">Продукция</p>
+                              <img src="./img/arrow.svg" class="caption_img_320" alt="">
                               <ul>
                                    <li>Азот</li>
                                    <li>Ацетилен</li>
@@ -141,6 +161,7 @@
                          </div>
                          <div class="footer_services">
                               <p class="caption">Услуги</p>
+                              <img src="./img/arrow.svg" class="caption_img_320" alt="">
                               <ul>
                                    <li>Доставка</li>
                                    <li>Аренда баллона</li>
@@ -178,7 +199,7 @@
                               <div>
                                    <p>634003, г. Томск, ул. Ачинская, д. 9, офис 501 — Главный офис</p>
                                    <p>г. Томск, Кузовлевский тракт, д. 4/3 — Производственно складская база</p>
-                                   <p class="footer_last_text">Разработка сайта 43DIGITAL</p>
+                                   <p class="footer_last_text footer_last_text_tablet">Разработка сайта 43DIGITAL</p>
                               </div>
                          </div>
                     </div>

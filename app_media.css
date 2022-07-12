@@ -1,0 +1,128 @@
+@media (max-width: 768px) {
+    /* header! */
+    .header_container {
+        padding: 25px 39px;
+    }
+    .header_info {
+        justify-content: space-between;
+    }
+    .header_info_phone,
+    .header_menu {
+        display: none;
+    }
+    .header_burger {
+        display: block;
+    }
+    .header_info_button {
+        margin-right: 58px;
+    }
+    .media_button {
+        display: flex;
+        align-items: center;
+    }
+    .burger_menu {
+        padding: 60px 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        background: #035178;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        text-transform: uppercase;
+    }
+    .burger_menu .header_info_button,
+    .header_info_phone_burger {
+        display: block;
+        margin: 0;
+    }
+    .burger_menu li {
+        margin-bottom: 32px;
+    }
+    .burger_menu .header_menu_list {
+        margin-bottom: 25px;
+    }
+    .burger_menu .header_info_phone_burger {
+        margin-bottom: 21px;
+    }
+    .header_menu_list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cross {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    /* footer! */
+    .footer_container {
+        padding: 39px 39px;
+    }
+    .footer_links_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer_products,
+    .footer_services {
+        margin-bottom: 40px;
+    }
+    .footer_company p:nth-of-type(2) {
+        margin-bottom: 12px;
+    }
+    .footer_down {
+        display: flex;
+        /* justify-content: unset; */
+    }
+    .footer_info {
+        margin-right: 30px;
+    }
+
+    .footer_last_text_tablet {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    /* header! */
+    .header_container {
+        padding: 15px 15px 21px 15px;
+    }
+    .header_info_phone,
+    .header_info_button,
+    .header_menu {
+        display: none;
+    }
+    .burger_menu .header_info_phone {
+        display: block;
+    }
+    /* footer! */
+    .footer_container {
+        padding: 40px 15px;
+    }
+    .footer_links_list {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .footer_links_list ul {
+        display: none;
+    }
+    .footer_products,
+    .footer_services {
+        margin-bottom: 30px;
+        display: flex;
+    }
+    .caption_img_320 {
+        display: block;
+        margin-left: 8px;
+    }
+    .footer_company ul {
+        display: block;
+    }
+    .footer_down {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
