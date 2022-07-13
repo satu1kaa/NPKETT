@@ -8,7 +8,7 @@
      <title>НПК ЭТТ</title>
      <link rel="stylesheet" href="./app_headerFooter.css">
      <link rel="stylesheet" href="./app_bootstrap.css">
-     <link rel="stylesheet" href="./app_media.css">
+     <link rel="stylesheet" href="./app_media_bootstrap.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -49,7 +49,6 @@
                <div class="header_info_phone">8 (3822) 60-99-61</div>
                <button class="header_info_button">Заказать звонок</button>
           </div>
-
      </header>
      <main>
           <section class="section_first">
@@ -57,7 +56,8 @@
                     <div class="section_first_price">
                          <div class="production">Производство <br>
                               технических <br>
-                              газов в Томске</div>
+                              газов в Томске
+                         </div>
                          <div>
                               <button class="button_download"><img src="./img/intro/pdf_icon.svg" alt="">Скачать прайслист</button>
                               <button class="button_catalog">Каталог</button>
@@ -79,9 +79,13 @@
                </div>
           </section>
           <section class="section_third">
-               <div class="page_container">
+               <div class="page_container page_container_section_third">
                     <div class="third_container">
-                         <div class="third_pic"><img src="./img/intro/thirdPic.png" alt=""></div>
+                         <div class="third_pic">
+                              <img src="./img/intro/thirdPic.png" class="section_third_1920_pic" alt="">
+                              <img src="./img/intro/bootstrap_768_2ndpic.png" class="section_third_tablet_pic" alt="">
+                              <img src="./img/intro/section_third_320img.png" class="section_third_320_pic" alt="">
+                         </div>
                          <p class="third_text_big">ОСВИДЕТЕЛЬСТВОВАНИЕ ГАЗОВЫХ БАЛЛОНОВ В <br> ООО НПК «ЭТТ»</p>
                          <p class="third_text_small">ООО НПК «ЭТТ» - качественная продукция, <br> индивидуальный подход! ООО Научно-производственный комплекс «Электро-...</p>
                     </div>
@@ -95,35 +99,41 @@
                     </div>
                </div>
           </section>
-          <section class="section_fourth">
-               <div class="page_container">
+          <section class="section_fourth ">
+               <div class="page_container page_container_section_four">
                     <div class="fourth_number">
-                         <img src="./img/intro/31.svg" alt="">
+                         <img src="./img/intro/31.svg" class="number_1920" alt="">
+                         <img src="./img/intro/31_small.svg" alt="" class="number_small">
                          <p>год на рынке <br> производителей</p>
                     </div>
                     <div class="fourth_car">
-                         <img src="./img/intro/car.svg" alt="">
+                         <img src="./img/intro/car.svg" class="number_1920" alt="">
+                         <img src="./img/intro/car_small.svg" alt="" class="car_small">
                          <p>Доставляем по всей <br> России</p>
                     </div>
                </div>
           </section>
-          <sectin class="section_fifth">
+          <section class="section_fifth">
                <div class="page_container">
                     <div class="fifth_container">
                          <p>С нами сотрудничают</p>
-                         <div class="fifth_line">
+                         <div class="fifth_line section_fifth_1920_img">
                               <img src="./img/intro/sibur_logo_ru_cs3.svg" alt="">
                               <img src="./img/intro/paoEec.svg" alt="">
                               <img src="./img/intro/linde.svg" alt="">
-                         </div>
-                         <div class="fifth_line">
                               <img src="./img/intro/latat.svg" alt="">
                               <img src="./img/intro/cxk.svg" alt="">
                               <img src="./img/intro/ock.svg" alt="">
                          </div>
+                         <div class="section_fifth_768_img">
+                              <img src="./img/intro/section_fifth_768_img.svg" alt="">
+                         </div>
+                         <div class="section_fifth_320_img">
+                              <img src="./img/intro/section_fifth_320_img.svg" alt="">
+                         </div>
                     </div>
                </div>
-          </sectin>
+          </section>
           <section class="section_six">
                <div class="page_container">
                     <div class="six_container">
@@ -208,7 +218,6 @@
           </div>
           </div>
      </footer>
-
 </body>
 
 </html>

@@ -1,0 +1,145 @@
+/* Tablet! */
+@media (max-width: 768px) {
+    .section_first {
+        background-image: none;
+        background: rgba(0, 80, 120, 0.95);
+    }
+    .container {
+        padding: 0;
+        justify-content: left;
+    }
+    /* ПОЧЕМУ МЕНЯЕТСЯ ЦВЕТ БЛЯДЬ? */
+    .page_container {
+        padding: 64px 49px 60px 39px;
+        display: flex;
+    }
+    .second_pic {
+        margin-right: 60px;
+    }
+    .second_pic img {
+        width: 330px;
+        height: 355px;
+    }
+    .page_container_section_third {
+        display: flex;
+        flex-direction: column;
+    }
+    .third_container {
+        margin-bottom: 32px;
+    }
+    .third_container br {
+        display: none;
+    }
+    .section_third_1920_pic {
+        display: none;
+    }
+    .section_third_tablet_pic {
+        display: block;
+    }
+    .third_text_big {
+        padding: 16px 16px 4px 16px;
+    }
+    .third_text_small {
+        padding: 0 16px 4px 16px;
+    }
+    .page_container_section_four {
+        display: flex;
+        flex-direction: column;
+    }
+    .fourth_number {
+        margin: 0 0 30px 115px;
+        justify-content: unset;
+    }
+    .section_fifth_1920_img {
+        display: none;
+    }
+    .section_fifth_768_img {
+        display: block;
+    }
+    .six_partner {
+        width: 50%;
+        margin: 0 60px 0 0;
+    }
+    .six_partner br {
+        display: none;
+    }
+    .six_buy button {
+        padding: 16px 60px;
+    }
+}
+/* Phone! */
+@media (max-width: 425px) {
+    .section_first_price {
+        padding: 50px 15px;
+    }
+    .production {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 110%;
+    }
+    .section_first br {
+        display: none;
+    }
+    .page_container {
+        padding: 64px 15px 60px 15px;
+        display: flex;
+    }
+    .second_pic,
+    .section_third_tablet_pic {
+        display: none;
+    }
+    /* КАК УБРАТЬ ОТСТУП У КАРТИНКИ, КОТОРАЯ ВНУТРИ page_container */
+    .section_third_320_pic {
+        display: block;
+    }
+    .third_text_big,
+    .third_text_small {
+        padding: 0;
+    }
+    .third_text_big {
+        font-size: 26px;
+        margin-top: 16px;
+    }
+    .number_1920 {
+        display: none;
+    }
+    .number_small,
+    .car_small {
+        display: block;
+    }
+    .page_container_section_four p {
+        font-size: 24px;
+        line-height: 120%;
+    }
+    .page_container_section_four br {
+        display: none;
+    }
+    .fourth_number {
+        margin: 0 0 30px 0;
+        justify-content: unset;
+    }
+    .fifth_container p {
+        margin-bottom: 17px;
+    }
+    .section_fifth_768_img {
+        display: none;
+    }
+    .section_fifth_320_img {
+        display: block;
+    }
+    /* пусть дизайнер сделает норм лого из 6 картинок */
+    .six_container {
+        flex-direction: column;
+    }
+    .six_partner {
+        margin: 0 0 16px 0;
+        padding: 0;
+    }
+    /* не понимаю, что выталкивает "нашим" на след строчку */
+    .six_partner br {
+        display: none;
+    }
+    .six_buy p {
+        margin-bottom: 32px;
+    }
+}

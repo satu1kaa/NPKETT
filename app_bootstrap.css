@@ -11,9 +11,9 @@
 .section_first_price {
     width: fit-content;
     padding: 50px 65px;
-    background-color: #005078f2;
     display: flex;
     flex-direction: column;
+    background: rgba(0, 80, 120, 0.95);
 }
 .production {
     font-weight: 700;
@@ -53,7 +53,7 @@
     width: 100%;
 }
 .second_pic {
-    padding-right: 95px;
+    margin-right: 95px;
 }
 .second_list li {
     font-weight: 700;
@@ -87,6 +87,10 @@
     flex-direction: column;
     color: #000000;
     margin-right: 30px;
+}
+.section_third_tablet_pic,
+.section_third_320_pic {
+    display: none;
 }
 .third_text_big {
     font-size: 32px;
@@ -136,6 +140,10 @@
     display: flex;
     justify-content: space-between;
 }
+.number_small,
+.car_small {
+    display: none;
+}
 .fourth_number {
     display: flex;
     align-items: center;
@@ -159,13 +167,29 @@
     font-size: 32px;
     line-height: 100%;
     color: #000000;
+    margin-bottom: 2px;
 }
 .fifth_container {
     width: 100%;
 }
 .fifth_line {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 35px;
+}
+.fifth_line img {
+    margin: 30px 177px 0 0;
+}
+.fifth_line img:nth-of-type(1),
+.fifth_line img:nth-of-type(3) {
+    padding-top: 30px;
+}
+.fifth_line img:nth-of-type(4) {
+    padding-top: 15px;
+}
+.section_fifth_768_img,
+.section_fifth_320_img {
+    display: none;
 }
 .section_six {
     background-image: url(./img/intro/intersect.svg);
@@ -192,4 +216,5 @@
     margin-top: 10px;
     background-color: #eecc1c;
     padding: 16px 70px;
+    color: #035178;
 }
