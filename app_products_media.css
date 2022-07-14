@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+    .page_container {
+        padding: 65px 39px;
+    }
+    .services {
+        padding-right: 120px;
+    }
+    .wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .card {
+        margin-right: 15px;
+    }
+    .card:nth-of-type(2),
+    .card:nth-of-type(4),
+    .card:nth-of-type(6),
+    .card:nth-of-type(8),
+    .card:nth-of-type(10) {
+        margin-right: 0;
+        margin-left: 15px;
+    }
+}
+@media (max-width: 425px) {
+    .page_container {
+        padding: 65px 15px;
+    }
+    .services {
+        padding-right: 0;
+        font-size: 24px;
+        line-height: 120%;
+    }
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+    .card {
+        margin: 30px 0 0 0;
+        /* width: 290px; */
+        padding: 30px;
+    }
+    /* не могу понять, почему .card не обнуляет все остальные маржины, поэтому -> */
+    .card:nth-of-type(2),
+    .card:nth-of-type(4),
+    .card:nth-of-type(6),
+    .card:nth-of-type(8),
+    .card:nth-of-type(10) {
+        margin-left: 0;
+    }
+}
