@@ -200,12 +200,10 @@ footer li {
     }
     .footer_down {
         display: flex;
-        /* justify-content: unset; */
     }
     .footer_info {
         margin-right: 30px;
     }
-
     .footer_last_text_tablet {
         display: none;
     }
