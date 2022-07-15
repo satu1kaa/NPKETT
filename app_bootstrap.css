@@ -2,9 +2,11 @@
 .section_first {
     background-image: url(./img/intro/firstPic.png);
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 .container {
-    padding: 0 405px;
+    max-width: 1110px;
     display: flex;
     justify-content: flex-end;
 }
@@ -46,9 +48,12 @@
 }
 .section_second {
     background: #e5e5e5;
+    display: flex;
+    justify-content: center;
 }
 .page_container {
-    padding: 65px 405px;
+    padding: 64px 0;
+    max-width: 1110px;
     display: flex;
     width: 100%;
 }
@@ -81,6 +86,7 @@
 .section_third {
     background: #ffffff;
     display: flex;
+    justify-content: center;
 }
 .third_container {
     display: flex;
@@ -135,6 +141,8 @@
 }
 .section_fourth {
     background-color: #03608f;
+    display: flex;
+    justify-content: center;
 }
 .section_fourth .page_container {
     display: flex;
@@ -162,6 +170,12 @@
     line-height: 120%;
     color: #f3f3f3;
 }
+
+.section_fifth {
+    display: flex;
+    justify-content: center;
+}
+
 .section_fifth p {
     font-weight: 700;
     font-size: 32px;
@@ -195,6 +209,8 @@
     background-image: url(./img/intro/intersect.svg);
     background-color: #03608f;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 .six_container {
     width: 100%;
