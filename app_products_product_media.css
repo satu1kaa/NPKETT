@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    .page_container {
+        padding: 65px 39px;
+    }
+    .first_row {
+        flex-direction: column;
+    }
+    h2 {
+        padding-right: 90px;
+    }
+    .first_row_img_1920 {
+        display: none;
+    }
+    .first_row_img_768 {
+        display: block;
+        margin-bottom: 16px;
+    }
+    .second_row_first_column {
+        width: 50%;
+    }
+    .second_row_second_column {
+        width: 50%;
+    }
+    .assortiment {
+        padding: 44px 0;
+    }
+    .third_row {
+        flex-direction: column;
+    }
+    .third_row_second_column {
+        margin-top: 48px;
+    }
+}
+@media (max-width: 425px) {
+}

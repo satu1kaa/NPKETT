@@ -1,12 +1,14 @@
-/* Content */
 .section_first {
     background-image: url(./img/intro/firstPic.png);
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 .container {
-    padding: 0 405px;
+    max-width: 1110px;
     display: flex;
     justify-content: flex-end;
+    width: 100%;
 }
 .section_first_price {
     width: fit-content;
@@ -33,6 +35,11 @@
     justify-content: center;
     padding: 31px 55px;
 }
+.button_download:hover {
+    cursor: pointer;
+    background: #ffea7d;
+}
+
 .button_download img {
     margin-right: 10px;
 }
@@ -44,13 +51,24 @@
     border: 1px solid #eaeff3;
     padding: 16px 111px;
 }
+.button_catalog:hover {
+    background: #eaeff3;
+    cursor: pointer;
+    color: #03608f;
+}
 .section_second {
     background: #e5e5e5;
+    display: flex;
+    justify-content: center;
 }
 .page_container {
-    padding: 65px 405px;
+    padding: 64px 0;
+    max-width: 1110px;
     display: flex;
     width: 100%;
+}
+.section_second_content {
+    display: flex;
 }
 .second_pic {
     margin-right: 95px;
@@ -81,6 +99,7 @@
 .section_third {
     background: #ffffff;
     display: flex;
+    justify-content: center;
 }
 .third_container {
     display: flex;
@@ -135,6 +154,8 @@
 }
 .section_fourth {
     background-color: #03608f;
+    display: flex;
+    justify-content: center;
 }
 .section_fourth .page_container {
     display: flex;
@@ -147,12 +168,10 @@
 .fourth_number {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .fourth_car {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .section_fourth img {
     padding-right: 25px;
@@ -161,6 +180,10 @@
     font-size: 32px;
     line-height: 120%;
     color: #f3f3f3;
+}
+.section_fifth {
+    display: flex;
+    justify-content: center;
 }
 .section_fifth p {
     font-weight: 700;
@@ -172,29 +195,26 @@
 .fifth_container {
     width: 100%;
 }
-.fifth_line {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 35px;
+.section__logo-list {
+    margin-top: 80px;
 }
-.fifth_line img {
-    margin: 30px 177px 0 0;
+.logo-list__first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
 }
-.fifth_line img:nth-of-type(1),
-.fifth_line img:nth-of-type(3) {
-    padding-top: 30px;
-}
-.fifth_line img:nth-of-type(4) {
-    padding-top: 15px;
-}
-.section_fifth_768_img,
-.section_fifth_320_img {
-    display: none;
+.logo-list__second-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 .section_six {
     background-image: url(./img/intro/intersect.svg);
     background-color: #03608f;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 .six_container {
     width: 100%;
@@ -217,4 +237,8 @@
     background-color: #eecc1c;
     padding: 16px 70px;
     color: #035178;
+}
+.six_buy button:hover {
+    cursor: pointer;
+    background: #ffea7d;
 }

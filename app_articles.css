@@ -1,9 +1,14 @@
+.section {
+    display: flex;
+    justify-content: center;
+    background: #e5e5e5;
+}
 .page_container {
-    padding: 65px 405px;
+    padding: 64px 0;
+    max-width: 1110px;
     display: flex;
     width: 100%;
     flex-direction: column;
-    background: #e5e5e5;
 }
 .main_services {
     font-size: 16px;
@@ -64,4 +69,8 @@ hr {
     line-height: 100%;
     color: #03608f;
     border: 1px solid #00679c;
+}
+.button_show button:hover {
+    cursor: pointer;
+    background: #84bfdc;
 }

@@ -17,13 +17,28 @@ ul li {
 }
 /* Header! */
 .header_container {
-    padding: 25px 405px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.header_top {
+    display: flex;
+    max-width: 1110px;
+    width: 100%;
+    justify-content: space-between;
+}
+.phone_plus_button {
+    display: flex;
+    align-items: center;
 }
 .header_info {
     background-color: #03608f;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    padding: 25px 0;
+}
+.header_info_phone {
+    margin-right: 100px;
 }
 .header_info_phone,
 .header_info_phone_burger {
@@ -42,6 +57,10 @@ ul li {
     color: #03608f;
     padding: 11px 36px;
 }
+.header_info_button:hover {
+    background: #c3eafd;
+    cursor: pointer;
+}
 .header_burger,
 .burger_menu {
     display: none;
@@ -52,11 +71,14 @@ ul li {
     font-size: 16px;
     line-height: 21px;
     color: #eaeff3;
+    padding: 16px 0;
+    display: flex;
 }
 .header_menu_list {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    max-width: 1110px;
 }
 .list_margin {
     margin-right: 8px;
@@ -67,11 +89,17 @@ a {
 }
 /* Footer! */
 .footer_container {
-    padding: 60px 405px 45px 405px;
+    padding: 60px 0 45px 0;
     background-color: #035178;
     font-size: 16px;
     line-height: 100%;
     color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+}
+.container_size {
+    max-width: 1110px;
+    width: 100%;
 }
 .caption {
     font-weight: 700;
@@ -87,6 +115,12 @@ a {
 }
 .footer_links_list {
     margin-right: 125px;
+}
+.footer_links_list a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #ffffff;
 }
 footer li {
     margin-top: 12px;
@@ -122,10 +156,14 @@ footer li {
 .caption_img_320 {
     display: none;
 }
-/* Media! */
-/* Tablet! */
-@media (max-width: 768px) {
-    /* header! */
+@media (max-width: 1280px) {
+    .header_top,
+    .header_menu_list,
+    .container_size {
+        max-width: 940px;
+    }
+}
+@media (max-width: 1023px) {
     .header_container {
         padding: 25px 39px;
     }

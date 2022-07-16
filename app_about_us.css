@@ -1,9 +1,20 @@
+main {
+    background: #e5e5e5;
+}
+.section_1,
+.section_2 {
+    display: flex;
+    justify-content: center;
+}
 .page_container {
-    padding: 65px 405px;
+    padding: 64px 0;
+    max-width: 1110px;
     display: flex;
     width: 100%;
     flex-direction: column;
-    background: #e5e5e5;
+}
+.section_2 .page_container {
+    padding-top: 0;
 }
 .main_services {
     font-size: 16px;
@@ -23,6 +34,7 @@ h2 {
     line-height: 110%;
     width: 540px;
     margin-bottom: 32px;
+    margin-top: 32px;
 }
 .container {
     display: flex;
@@ -42,7 +54,7 @@ h2 {
     line-height: 150%;
     margin-bottom: 32px;
 }
-ul {
+.first_column_ul {
     margin-bottom: 31px;
 }
 .second_column img {
@@ -52,6 +64,10 @@ ul {
 }
 .page_container_2 {
     padding-top: 0;
+}
+.section_fifth {
+    display: flex;
+    justify-content: center;
 }
 .section_fifth p {
     font-weight: 700;
@@ -63,30 +79,26 @@ ul {
 .fifth_container {
     width: 100%;
 }
-.fifth_line {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 35px;
+.section__logo-list {
+    margin-top: 80px;
 }
-.fifth_line img {
-    margin: 30px 177px 0 0;
+.logo-list__first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
 }
-.fifth_line img:nth-of-type(1),
-.fifth_line img:nth-of-type(3) {
-    padding-top: 30px;
-}
-.fifth_line img:nth-of-type(4) {
-    padding-top: 15px;
-}
-.section_fifth_768_img,
-.section_fifth_320_img {
-    display: none;
+.logo-list__second-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 .section_six {
-    padding: 69px 640px 75px 596px;
     background-image: url(./img/intro/intersect.svg);
     background-color: #03608f;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 .six_container {
     width: 100%;
@@ -97,16 +109,20 @@ ul {
     font-size: 48px;
     line-height: 120%;
     color: #f3f3f3;
+    margin-right: 126px;
 }
 .six_buy {
     font-size: 24px;
     line-height: 120%;
     color: #f3f3f3;
-    margin-left: 95px;
 }
 .six_buy button {
     margin-top: 10px;
     background-color: #eecc1c;
     padding: 16px 70px;
     color: #035178;
+}
+.six_buy button:hover {
+    background: #ffea7d;
+    cursor: pointer;
 }

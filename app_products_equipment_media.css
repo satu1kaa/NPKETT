@@ -2,20 +2,14 @@
     .page_container {
         padding: 65px 39px;
     }
-    .row {
-        flex-direction: column;
-        margin-bottom: 0;
+    .container {
+        margin-bottom: 48px;
     }
-    .row_left {
-        width: 100%;
-        margin-bottom: 32px;
+    .container_first_1920 {
+        display: none;
     }
-    .row_right {
-        width: 100%;
-        margin-bottom: 32px;
-    }
-    .assortiment_all {
-        padding: 0 70px;
+    .container_first_768 {
+        display: block;
     }
     h2 {
         margin-top: 0;
@@ -31,9 +25,20 @@
     .page_container {
         padding: 65px 15px;
     }
+    .container {
+        flex-direction: column;
+    }
+    .container_first {
+        overflow: hidden;
+        margin: 0;
+    }
+    .container_first img {
+        margin: 0 -15px;
+    }
     h1 {
         font-size: 24px;
         line-height: 120%;
+        margin-top: 32px;
     }
     .cards {
         flex-direction: column;
