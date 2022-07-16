@@ -1,141 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
-    font-family: "PT Sans";
-    font-weight: 400;
-}
-input::-ms-clear {
-    display: none;
-}
-ul li {
-    list-style: none;
-}
-
-/* Header! */
-
-.header_container {
-    padding: 25px 405px;
-}
-
-.header_info {
-    background-color: #03608f;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header_info_phone {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #eaeff3;
-}
-.header_info_button {
-    background-color: #eaeff3;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 100%;
-    color: #03608f;
-    padding: 11px 36px;
-}
-
-.header_menu {
-    background-color: #035178;
-    text-transform: uppercase;
-    font-size: 16px;
-    line-height: 21px;
-    color: #eaeff3;
-}
-
-.header_menu_list {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.list_margin {
-    margin-right: 8px;
-}
-
-a {
-    color: #eaeff3;
-    text-decoration: none;
-}
-
-/* Footer! */
-
-.footer_container {
-    padding: 60px 405px 45px 405px;
-    background-color: #035178;
-    font-size: 16px;
-    line-height: 100%;
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.caption {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 100%;
-    color: #ffffff;
-}
-
-.footer_list {
-    margin-top: 45px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.footer_links_list {
-    margin-right: 125px;
-}
-
-footer li {
-    margin-top: 12px;
-}
-
-.footer_license p {
-    margin-bottom: 30px;
-}
-
-.footer_company p {
-    margin-bottom: 30px;
-}
-
-.footer_links_list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer_down {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer_info {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-top: 25px;
-}
-
-.footer_copyright {
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-}
-
-.footer_last_text {
-    margin-top: 25px;
-}
-
 .page_container {
     padding: 65px 405px;
     display: flex;
@@ -143,21 +5,18 @@ footer li {
     flex-direction: column;
     background: #e5e5e5;
 }
-
 .main_services {
     font-size: 16px;
     line-height: 150%;
     opacity: 0.3;
     padding-bottom: 32px;
 }
-
 hr {
     height: 3;
     border: none;
     border-top: 1px solid #333;
     margin-top: 13px;
 }
-
 h2 {
     font-weight: 700;
     font-size: 32px;
@@ -168,9 +27,11 @@ h2 {
 .container {
     display: flex;
 }
-
 .first_column {
     margin-right: 30px;
+}
+.first_column p:nth-last-child(1) {
+    margin-bottom: 0;
 }
 .text_big {
     font-size: 24px;
@@ -181,7 +42,6 @@ h2 {
     line-height: 150%;
     margin-bottom: 32px;
 }
-
 ul {
     margin-bottom: 31px;
 }
@@ -190,52 +50,63 @@ ul {
     width: 540px;
     height: 240px;
 }
-
+.page_container_2 {
+    padding-top: 0;
+}
 .section_fifth p {
     font-weight: 700;
     font-size: 32px;
     line-height: 100%;
     color: #000000;
+    margin-bottom: 2px;
 }
-
 .fifth_container {
     width: 100%;
 }
-
 .fifth_line {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 35px;
 }
-
+.fifth_line img {
+    margin: 30px 177px 0 0;
+}
+.fifth_line img:nth-of-type(1),
+.fifth_line img:nth-of-type(3) {
+    padding-top: 30px;
+}
+.fifth_line img:nth-of-type(4) {
+    padding-top: 15px;
+}
+.section_fifth_768_img,
+.section_fifth_320_img {
+    display: none;
+}
 .section_six {
+    padding: 69px 640px 75px 596px;
     background-image: url(./img/intro/intersect.svg);
     background-color: #03608f;
     background-size: cover;
 }
-
 .six_container {
-    height: 268px;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
-
 .six_partner {
     font-size: 48px;
     line-height: 120%;
     color: #f3f3f3;
-    margin-right: 126px;
-    padding: 69px 0 83px 0;
 }
-
 .six_buy {
     font-size: 24px;
     line-height: 120%;
     color: #f3f3f3;
-    padding: 75px 0 135px 0;
+    margin-left: 95px;
 }
-
 .six_buy button {
     margin-top: 10px;
     background-color: #eecc1c;
     padding: 16px 70px;
+    color: #035178;
 }

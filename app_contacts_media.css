@@ -1,0 +1,130 @@
+@media (max-width: 768px) {
+    .page_container {
+        padding: 64px 39px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .second_column img {
+        max-width: 690px;
+    }
+    .section_fifth_1920_img {
+        display: none;
+    }
+    .section_fifth_768_img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .section_fifth_768_img img {
+        margin: 30px 70px 0 0;
+    }
+    .section_fifth_768_img_first {
+        margin-top: 30px;
+    }
+    .section_fifth_768_img_first img:nth-of-type(2) {
+        padding-left: 40px;
+        padding-top: 25px;
+    }
+    .section_fifth_768_img_first img:nth-of-type(3) {
+        padding-left: 40px;
+        padding-top: 25px;
+    }
+    .section_fifth_768_img_second img:nth-of-type(1) {
+        padding-left: 40px;
+    }
+    .section_fifth_768_img_second img:nth-of-type(3) {
+        padding-left: 40px;
+        padding-top: 25px;
+    }
+    .section_six {
+        padding: 41px 129px 50px 99px;
+    }
+    .six_partner {
+        width: 50%;
+        margin: 0 60px 0 0;
+    }
+    .six_partner br {
+        display: none;
+    }
+    .six_buy button {
+        padding: 16px 60px;
+    }
+}
+@media (max-width: 425px) {
+    .page_container {
+        padding: 64px 15px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 120%;
+        padding-right: 25px;
+    }
+    .text_big {
+        font-size: 22px;
+        line-height: 110%;
+    }
+    .text_small {
+        font-size: 18px;
+    }
+    .second_column img {
+        max-width: 289px;
+    }
+    .fifth_container p {
+        margin-bottom: 10px;
+    }
+    .section_fifth_768_img {
+        display: none;
+    }
+    .section_fifth_320_img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .section_fifth_320_img_first {
+        margin-top: 30px;
+    }
+    .section_fifth_320_img_first img:nth-of-type(2) {
+        padding-left: 10px;
+        padding-top: 25px;
+    }
+    .section_fifth_320_img_first img:nth-of-type(3) {
+        padding-left: 10px;
+        padding-top: 25px;
+    }
+    .section_fifth_320_img_second img:nth-of-type(1) {
+        padding-top: 15px;
+        padding-left: 40px;
+    }
+    .section_fifth_320_img_second img:nth-of-type(2) {
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+    .section_fifth_320_img_second img:nth-of-type(3) {
+        padding: 30px 0 0 30px;
+    }
+    .six_container {
+        flex-direction: column;
+    }
+    .section_six {
+        padding: 32px 15px 48px 15px;
+    }
+    .section_six .page_container {
+        margin-top: -80px;
+    }
+    .six_partner {
+        margin: 0 0 16px 0;
+        padding: 0;
+    }
+    .six_buy {
+        margin-left: 0px;
+    }
+    /* не понимаю, что выталкивает "нашим" на след строчку */
+    .six_partner br {
+        display: none;
+    }
+    .six_buy p {
+        margin-bottom: 32px;
+    }
+}
