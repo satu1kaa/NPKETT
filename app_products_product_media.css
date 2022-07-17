@@ -32,4 +32,71 @@
     }
 }
 @media (max-width: 425px) {
+    .page_container {
+        padding: 65px 15px;
+    }
+    .first_row_img_768 {
+        display: none;
+    }
+    .first_row_img_320 {
+        display: block;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 120%;
+        padding-right: 60px;
+    }
+    .azot_column {
+        display: flex;
+        margin-left: 34px;
+    }
+    .price_row {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .text_bold {
+        margin-bottom: 30px;
+    }
+    .volume,
+    .price {
+        margin-bottom: 30px;
+    }
+    .price {
+        height: 38px;
+    }
+    .price_row_opt {
+        display: flex;
+        flex-direction: row;
+        margin-left: 17px;
+    }
+    .callback,
+    .more_info {
+        width: 285px;
+    }
+    .second_row {
+        flex-direction: column;
+    }
+    .second_row_first_column,
+    .second_row_second_column {
+        width: 100%;
+    }
+    .assortiment {
+        padding: 44px 33px;
+        width: 100%;
+        margin-top: 48px;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .card_one,
+    .card_two {
+        max-width: 290px;
+    }
+    .card_one {
+        margin-bottom: 32px;
+    }
+    .cards img {
+        max-width: 258px;
+    }
 }

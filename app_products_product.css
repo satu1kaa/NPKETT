@@ -30,7 +30,8 @@ hr {
 .first_row_img_1920 {
     margin-right: 32px;
 }
-.first_row_img_768 {
+.first_row_img_768,
+.first_row_img_320 {
     display: none;
 }
 h2 {
@@ -68,6 +69,11 @@ hr:nth-of-type(1) {
     background: #00679c;
     padding: 16px 78.5px;
     color: #eaeff3;
+}
+.callback:hover {
+    background: #eaeff3;
+    cursor: pointer;
+    color: #03608f;
 }
 .second_row {
     display: flex;
@@ -126,6 +132,10 @@ h3 {
     color: #03608f;
     padding: 14px 69px;
 }
+.price_list:hover {
+    cursor: pointer;
+    background: #ffea7d;
+}
 .price img {
     padding-right: 10px;
 }
@@ -159,6 +169,12 @@ h4 {
 }
 h4:nth-of-type(2) {
     margin-top: 48px;
+}
+h4 a {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
 }
 .cards {
     display: flex;
