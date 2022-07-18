@@ -6,7 +6,9 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>НПК ЭТТ</title>
+     <link rel="stylesheet" href="./app_headerFooter.css">
      <link rel="stylesheet" href="./app_contacts.css">
+     <link rel="stylesheet" href="./app_contacts_media.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -15,135 +17,167 @@
 <body>
      <header>
           <div class="header_container header_info">
-               <div class="header_info_logo"><img src="./img/logo.svg" alt=""></div>
-               <div class="header_info_phone">8 (3822) 60-99-61</div>
-               <button class="header_info_button">Заказать звонок</button>
+               <div class="header_top">
+                    <div class="header_info_logo"><a href="./index_bootstrap.html"><img src="./img/logo.svg" alt=""></a></div>
+                    <div class="phone_plus_button">
+                         <div class="header_info_phone">8 (3822) 60-99-61</div>
+                         <div class="media_button">
+                              <button class="header_info_button">Заказать звонок</button>
+                              <div class="header_burger"><img src="./img/media/menu.svg" alt=""></div>
+                         </div>
+                    </div>
+               </div>
           </div>
           <div class="header_container header_menu">
                <ul class="header_menu_list">
-                    <li><a class="list_margin" href="">продукция</a><img src="/img/arrow.svg" alt=""></li>
-                    <li><a class="list_margin" href="">услуги</a><img src="/img/arrow.svg" alt=""></li>
+                    <li><a class="list_margin" href="./index_products.html">продукция</a><img src="./img/arrow.svg" alt=""></li>
+                    <li><a class="list_margin" href="./index_services.html">услуги</a><img src="./img/arrow.svg" alt=""></li>
+                    <li><a href="./index_licenses.html">лицензии</a></li>
+                    <li><a href="./index_articles.html">новости</a></li>
+                    <li><a href="./index_supplyers.html">поставщикам</a></li>
+                    <li><a href="./index_about_us.html">о компании</a></li>
+                    <li><a href="./index_contacts.html">контакты</a></li>
+               </ul>
+          </div>
+          <div class="burger_menu">
+               <img src="./img/media/menu_cross.svg" alt="" class="cross">
+               <ul class="header_menu_list">
+                    <li><a class="list_margin" href="">продукция</a><img src="./img/arrow.svg" alt=""></li>
+                    <li><a class="list_margin" href="">услуги</a><img src="./img/arrow.svg" alt=""></li>
                     <li><a href="">лицензии</a></li>
                     <li><a href="">новости</a></li>
                     <li><a href="">поставщикам</a></li>
                     <li><a href="">о компании</a></li>
                     <li><a href="">контакты</a></li>
                </ul>
+               <div class="header_info_phone">8 (3822) 60-99-61</div>
+               <button class="header_info_button">Заказать звонок</button>
           </div>
      </header>
      <main>
-          <div class="page_container">
-               <div class="main_services">
-                    Главная — Контакты
-                    <hr />
-               </div>
-               <h2>Контакты компании НПК ЭТТ</h2>
-               <div class="container">
-                    <div class="first_column">
-                         <p class="text_big">Телефон</p>
-                         <p class="text_small">8 (3822) 60-99-61</p>
-                         <p class="text_big">Электронная почта</p>
-                         <p class="text_small">info.npk.ett@gmail.com</p>
-                         <p class="text_big">Адрес местонахождения</p>
-                         <p class="text_bold">Офис</p>
-                         <p class="text_small_2">ул. Ачинская, д. 9, оф. 501</p>
-                         <p class="text_bold">Завод</p>
-                         <p class="text_small_2">Кузовлевский тракт, д. 4/3</p>
-                         <p class="text_bold">Юридический адрес</p>
-                         <p class="text_small_2">ул. Березовая, д. 2/5</p>
+          <div class="section">
+               <div class="page_container">
+                    <div class="main_services">
+                         Главная — Контакты
+                         <hr />
                     </div>
-                    <div class="second_column"><img src="./img/contacts/contacts1.png" alt=""></div>
+                    <h2>Контакты компании НПК ЭТТ</h2>
+                    <div class="container">
+                         <div class="first_column">
+                              <p class="text_big">Телефон</p>
+                              <p class="text_small">8 (3822) 60-99-61</p>
+                              <p class="text_big">Электронная почта</p>
+                              <p class="text_small">info.npk.ett@gmail.com</p>
+                              <p class="text_big">Адрес местонахождения</p>
+                              <p class="text_bold">Офис</p>
+                              <p class="text_small_2">ул. Ачинская, д. 9, оф. 501</p>
+                              <p class="text_bold">Завод</p>
+                              <p class="text_small_2">Кузовлевский тракт, д. 4/3</p>
+                              <p class="text_bold">Юридический адрес</p>
+                              <p class="text_small_2">ул. Березовая, д. 2/5</p>
+                         </div>
+                         <div class="second_column"><img src="./img/contacts/contacts_img.png" alt=""></div>
+                    </div>
                </div>
-               <section class="section_fifth">
+          </div>
+          <section class="section_fifth">
+               <div class="page_container">
                     <div class="fifth_container">
                          <p>С нами сотрудничают</p>
-                         <div class="fifth_line">
-                              <img src="./img/intro/sibur_logo_ru_cs3.svg" alt="">
-                              <img src="./img/intro/paoEec.svg" alt="">
-                              <img src="./img/intro/linde.svg" alt="">
+                         <div class="section__logo-list">
+                              <div class="logo-list__first-row">
+                                   <img src="./img/intro/sibur_logo_ru_cs3.svg" class="client-logo">
+                                   <img src="./img/intro/paoEec.svg" class="client-logo">
+                                   <img src="./img/intro/linde.svg" class="client-logo">
+                              </div>
+                              <div class="logo-list__second-row">
+                                   <img src="./img/intro/latat.svg" class="client-logo">
+                                   <img src="./img/intro/cxk.svg" class="client-logo">
+                                   <img src="./img/intro/ock.svg" class="client-logo">
+                              </div>
                          </div>
-                         <div class="fifth_line">
-                              <img src="./img/intro/latat.svg" alt="">
-                              <img src="./img/intro/cxk.svg" alt="">
-                              <img src="./img/intro/ock.svg" alt="">
-                         </div>
-                    </div>
-               </section>
-          </div>
-          <section class="section_six">
-               <div class="six_container">
-                    <div class="six_partner">
-                         Станьте нашим <br>
-                         партнером
-                    </div>
-                    <div class="six_buy">
-                         <p>Мы покупаем краску, <br> баллоны и сырье</p>
-                         <button>Узнать больше</button>
                     </div>
                </div>
-
+          </section>
+          <section class="section_six">
+               <div class="page_container">
+                    <div class="six_container">
+                         <div class="six_partner">
+                              Станьте нашим <br>
+                              партнером
+                         </div>
+                         <div class="six_buy">
+                              <p>Мы покупаем краску, <br> баллоны и сырье</p>
+                              <button>Узнать больше</button>
+                         </div>
+                    </div>
+               </div>
           </section>
      </main>
      <footer>
           <div class="footer_container">
-               <div class="footer_container_logo"><img src="./img/logo.svg" alt=""></div>
-               <div class="footer_list">
-                    <div class="footer_links_list">
-                         <div class="footer_products">
-                              <p class="caption">Продукция</p>
-                              <ul>
-                                   <li>Азот</li>
-                                   <li>Ацетилен</li>
-                                   <li>Ацетон технический</li>
-                                   <li>Аргон</li>
-                                   <li>Гашеная известь</li>
-                                   <li>Карбид кальция</li>
-                                   <li>Кислород</li>
-                                   <li>Пропан</li>
-                                   <li>Углекислота</li>
-                                   <li>Сопутствующее оборудование</li>
-                              </ul>
-                         </div>
-                         <div class="footer_services">
-                              <p class="caption">Услуги</p>
-                              <ul>
-                                   <li>Доставка</li>
-                                   <li>Аренда баллона</li>
-                                   <li>Освидетельствование</li>
-                                   <li>Замена вентиля</li>
-                                   <li>Ремонт вентиля</li>
-                                   <li>Покраска баллона</li>
-                                   <li>Продувка</li>
-                              </ul>
-                         </div>
-                         <div class="footer_license caption">
-                              <p class="caption">Лицензии</p>
-                              <p class="caption">Новости</p>
-                              <p class="caption">Поставщикам</p>
-                         </div>
-                         <div class="footer_company">
-                              <p class="caption">О компании</p>
-                              <p class="caption">Контакты</p>
-                              <ul>
-                                   <li>8 (3822) 60-99-61</li>
-                                   <li>info.npk.ett@gmail.com</li>
-                              </ul>
-                         </div>
-                    </div>
-                    <div class="footer_down">
-                         <div class="footer_info">
-                              <div>
-                                   <p>Антикоррупционная политика</p>
-                                   <p>Политика обработки персональных данных</p>
-                                   <p class="footer_last_text">© 2014—2022, ООО НПК «ЭТТ»</p>
+               <div class="container_size">
+                    <div class="footer_container_logo"><a href="./index_bootstrap.html"><img src="./img/logo.svg" alt=""></a></div>
+                    <div class="footer_list">
+                         <div class="footer_links_list">
+                              <div class="footer_products">
+                                   <p class="caption"><a href="./index_products.html">Продукция</a></p>
+                                   <img src="./img/arrow.svg" class="caption_img_320" alt="">
+                                   <ul>
+                                        <li>Азот</li>
+                                        <li>Ацетилен</li>
+                                        <li>Ацетон технический</li>
+                                        <li>Аргон</li>
+                                        <li>Гашеная известь</li>
+                                        <li>Карбид кальция</li>
+                                        <li>Кислород</li>
+                                        <li>Пропан</li>
+                                        <li>Углекислота</li>
+                                        <li>Сопутствующее оборудование</li>
+                                   </ul>
                               </div>
-
+                              <div class="footer_services">
+                                   <p class="caption"><a href="./index_services.html">Услуги</a></p>
+                                   <img src="./img/arrow.svg" class="caption_img_320" alt="">
+                                   <ul>
+                                        <li>Доставка</li>
+                                        <li>Аренда баллона</li>
+                                        <li>Освидетельствование</li>
+                                        <li>Замена вентиля</li>
+                                        <li>Ремонт вентиля</li>
+                                        <li>Покраска баллона</li>
+                                        <li>Продувка</li>
+                                   </ul>
+                              </div>
+                              <div class="footer_license caption">
+                                   <p class="caption"><a href="./index_licenses.html">Лицензии</a></p>
+                                   <p class="caption"><a href="./index_articles.html">Новости</a></p>
+                                   <p class="caption"><a href="./index_supplyers.html">Поставщикам</a></p>
+                              </div>
+                              <div class="footer_company">
+                                   <p class="caption"><a href="./index_about_us.html">О компании</a></p>
+                                   <p class="caption"><a href="./index_contacts.html">Контакты</a></p>
+                                   <ul>
+                                        <li>8 (3822) 60-99-61</li>
+                                        <li>info.npk.ett@gmail.com</li>
+                                   </ul>
+                              </div>
                          </div>
-                         <div class="footer_copyright">
-                              <div>
-                                   <p>634003, г. Томск, ул. Ачинская, д. 9, офис 501 — Главный офис</p>
-                                   <p>г. Томск, Кузовлевский тракт, д. 4/3 — Производственно складская база</p>
-                                   <p class="footer_last_text">Разработка сайта 43DIGITAL</p>
+                         <div class="footer_down">
+                              <div class="footer_info">
+                                   <div>
+                                        <p>Антикоррупционная политика</p>
+                                        <p>Политика обработки персональных данных</p>
+                                        <p class="footer_last_text">© 2014—2022, ООО НПК «ЭТТ»</p>
+                                   </div>
+
+                              </div>
+                              <div class="footer_copyright">
+                                   <div>
+                                        <p>634003, г. Томск, ул. Ачинская, д. 9, офис 501 — Главный офис</p>
+                                        <p>г. Томск, Кузовлевский тракт, д. 4/3 — Производственно складская база</p>
+                                        <p class="footer_last_text footer_last_text_tablet">Разработка сайта 43DIGITAL</p>
+                                   </div>
                               </div>
                          </div>
                     </div>
@@ -151,7 +185,6 @@
           </div>
           </div>
      </footer>
-
 </body>
 
 </html>

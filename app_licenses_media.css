@@ -1,23 +1,22 @@
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
+    .page_container {
+        max-width: 940px;
+    }
+}
+
+@media (max-width: 1023px) {
     .page_container {
         padding: 65px 39px;
     }
     .licenses {
-        margin: 0 250px 32px 0;
+        margin-bottom:32px;
     }
-    .text_two {
-        margin-right: 110px;
-    }
+    
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .card_one img {
-        max-width: 330px;
-    }
-    .card_one:nth-of-type(3) {
-        margin-top: 64px;
-    }
+    
 }
 @media (max-width: 425px) {
     .page_container {
@@ -35,13 +34,5 @@
     .cards {
         grid-template-columns: 1fr;
     }
-    .card_one img {
-        max-width: 290px;
-    }
-    .card_one {
-        margin-bottom: 32px;
-    }
-    .card_one:nth-of-type(3) {
-        margin: 0;
-    }
+    
 }

@@ -1,9 +1,14 @@
+.section {
+    display: flex;
+    justify-content: center;
+    background: #e5e5e5;
+}
 .page_container {
-    padding: 65px 405px;
+    padding: 64px 0;
+    max-width: 1110px;
     display: flex;
     width: 100%;
     flex-direction: column;
-    background: #e5e5e5;
 }
 .main_services {
     font-size: 16px;
@@ -21,8 +26,6 @@ hr {
     display: flex;
     flex-direction: column;
     margin-bottom: 32px;
-    margin-right: 570px;
-    margin: 0 570px 32px 0;
 }
 .text_one {
     font-weight: 700;
@@ -35,10 +38,14 @@ hr {
     line-height: 150%;
 }
 .cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
 }
-.card_one {
-    padding-right: 30px;
+
+.card img {
+    width: 100%;
 }
 .card_text {
     margin-top: 16px;
