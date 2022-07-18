@@ -74,7 +74,7 @@ ul li {
     font-size: 16px;
     line-height: 21px;
     color: #eaeff3;
-    padding: 16px 0;
+
     display: flex;
 }
 .header_menu_list {
@@ -83,8 +83,27 @@ ul li {
     justify-content: space-between;
     max-width: 1110px;
 }
+.header_menu_list li {
+    padding: 16px 0;
+}
 .list_margin {
     margin-right: 8px;
+    position: relative;
+}
+.accordeon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+    color: #035178;
+}
+.accordeon li {
+    padding: 6px 40px;
+}
+.accordeon li:hover {
+    background: #c3eafd;
 }
 a {
     color: #eaeff3;
