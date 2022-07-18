@@ -39,7 +39,6 @@ ul li {
 }
 .header_info_phone {
     margin-right: 100px;
-
 }
 .header_info_phone,
 .header_info_phone_burger {
@@ -110,6 +109,10 @@ a {
     font-size: 18px;
     line-height: 100%;
     color: #ffffff;
+}
+.footer_links_list li:hover {
+    cursor: pointer;
+    color: #eaeff3;
 }
 .footer_list {
     margin-top: 45px;
@@ -260,7 +263,6 @@ footer li {
     .header_menu {
         display: none;
     }
-    
 }
 
 /* Phone! */
@@ -269,7 +271,7 @@ footer li {
     .header_container {
         padding: 15px 15px 21px 15px;
     }
-    
+
     /* footer! */
     .footer_container {
         padding: 40px 15px;

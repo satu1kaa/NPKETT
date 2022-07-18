@@ -3,7 +3,6 @@
         max-width: 940px;
     }
 }
-
 @media (max-width: 1023px) {
     .section_first_price {
         width: 100%;
@@ -152,13 +151,6 @@
     }
     .fifth_container p {
         margin-bottom: 10px;
-    }
-    .section_fifth_768_img {
-        display: none;
-    }
-    .section_fifth_320_img {
-        display: flex;
-        justify-content: center;
     }
     .six_container {
         flex-direction: column;

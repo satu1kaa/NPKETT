@@ -32,15 +32,16 @@ h2 {
     font-weight: 700;
     font-size: 32px;
     line-height: 110%;
-    width: 540px;
     margin-bottom: 32px;
     margin-top: 32px;
 }
 .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
 }
-.first_column {
-    margin-right: 30px;
+.media_img {
+    display: none;
 }
 .first_column p:nth-last-child(1) {
     margin-bottom: 0;
@@ -59,8 +60,7 @@ h2 {
 }
 .second_column img {
     margin-bottom: 32px;
-    width: 540px;
-    height: 240px;
+    width: 100%;
 }
 .page_container_2 {
     padding-top: 0;

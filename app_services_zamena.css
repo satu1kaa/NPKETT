@@ -17,17 +17,29 @@
     opacity: 0.3;
     padding-bottom: 32px;
 }
-.zamena_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
+hr {
+    height: 3;
+    border: none;
+    border-top: 1px solid #333;
+    margin-top: 13px;
 }
-.firstPic {
-    grid-column-start: 1;
-    margin-bottom: 18px;
+.zamena_container {
+    display: flex;
+    margin-bottom: 48px;
+}
+.img_768 {
+    display: none;
+}
+.container_first {
+    z-index: 100;
+    background: url("img/services_zamena/first_pic_1920.png");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    margin-right: 30px;
 }
 .zamena {
-    grid-column-start: 2;
+    width: 50%;
 }
 .text_one {
     padding-bottom: 32px;
@@ -55,19 +67,20 @@
     color: #03608f;
     background: #e5e5e5;
     border: 1px solid #00679c;
+    width: 285px;
 }
 .call:hover {
     background: #84bfdc;
     cursor: pointer;
 }
 .assortiment {
-    grid-column-start: 1;
     display: flex;
     flex-direction: column;
     background: #00679c;
     padding: 44px 111px;
     justify-content: center;
     align-items: center;
+    max-width: 540px;
 }
 .assortiment_all {
     font-size: 32px;
@@ -105,18 +118,17 @@ h2 a {
     opacity: 0.3;
 }
 .cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
 }
-.card_one {
-    background: #ffffff;
-    margin-right: 30px;
-    padding: 16px;
-}
-.card_two {
+.card {
     background: #ffffff;
     padding: 16px;
 }
-.cards img {
+.card img {
+    width: 100%;
     margin-bottom: 16px;
 }
 .card_text_one {

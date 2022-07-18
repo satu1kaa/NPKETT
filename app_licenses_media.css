@@ -3,7 +3,6 @@
         max-width: 940px;
     }
 }
-
 @media (max-width: 1023px) {
     .page_container {
         padding: 65px 39px;

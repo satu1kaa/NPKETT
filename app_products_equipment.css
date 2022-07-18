@@ -33,7 +33,6 @@ hr {
     background-size: cover;
     background-position: center;
 }
-
 h1 {
     font-weight: 700;
     font-size: 32px;
@@ -52,6 +51,7 @@ h1 {
     display: flex;
     align-items: center;
     margin-bottom: 32px;
+    width: 285px;
 }
 .price img {
     margin-right: 10px;
@@ -60,8 +60,8 @@ h1 {
     padding: 16px 84px;
     border: 1px solid #00679c;
     color: #03608f;
+    width: 285px;
 }
-
 h2 {
     margin-bottom: 16px;
     margin-top: 32px;
@@ -81,7 +81,6 @@ h2 {
     background: #ffffff;
     padding: 16px;
 }
-
 .card img {
     width: 100%;
     margin-bottom: 16px;

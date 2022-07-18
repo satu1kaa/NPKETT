@@ -32,11 +32,8 @@ h2 {
     display: flex;
     justify-content: space-between;
 }
-/* .first_column {
-    width: 50%;
-} */
+
 .text_big {
-    /* margin-right: 125px; */
     font-size: 32px;
     line-height: 110%;
     margin-bottom: 24px;
@@ -53,9 +50,6 @@ h2 {
     font-size: 24px;
     margin-bottom: 32px;
 }
-/* .second_column {
-    width: 50%;
-} */
 .second_column img {
     width: 100%;
 }
