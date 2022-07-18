@@ -3,14 +3,19 @@
         max-width: 940px;
     }
 }
+@media (max-width: 1023px) {
+    .page_container {
+        padding: 65px 39px;
+    }
+}
 @media (max-width: 768px) {
-    .zamena_container {
+    .container_first {
+        grid-column: span 2 / span 2;
+    }
+    .zamena {
         display: flex;
         flex-direction: column;
-    }
-    .container_first {
-        margin-bottom: 16px;
-        width: 100%;
+        align-items: center;
     }
     .img_768 {
         display: block;
@@ -21,6 +26,9 @@
     }
 }
 @media (max-width: 667px) {
+    .page_container {
+        padding: 65px 15px;
+    }
     .cards {
         grid-template-columns: 1fr;
     }
@@ -28,6 +36,12 @@
         font-size: 24px;
         line-height: 120%;
         margin-top: 32px;
+    }
+    .container_first {
+        grid-column: span 1 / span 1;
+    }
+    .zamena_container {
+        grid-template-columns: 1fr;
     }
     .row_right {
         padding: 46px 13px;

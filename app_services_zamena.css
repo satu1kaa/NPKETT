@@ -23,9 +23,12 @@ hr {
     border-top: 1px solid #333;
     margin-top: 13px;
 }
+
 .zamena_container {
-    display: flex;
-    margin-bottom: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
 }
 .img_768 {
     display: none;
@@ -35,11 +38,6 @@ hr {
     background: url("img/services_zamena/first_pic_1920.png");
     background-size: cover;
     background-position: center;
-    width: 50%;
-    margin-right: 30px;
-}
-.zamena {
-    width: 50%;
 }
 .text_one {
     padding-bottom: 32px;
@@ -77,10 +75,9 @@ hr {
     display: flex;
     flex-direction: column;
     background: #00679c;
-    padding: 44px 111px;
+    padding: 44px 0;
     justify-content: center;
     align-items: center;
-    max-width: 540px;
 }
 .assortiment_all {
     font-size: 32px;
