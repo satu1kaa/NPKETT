@@ -75,7 +75,6 @@
         margin-bottom: 0px;
         margin-right: 30px;
     }
-
     .logo-list__second-row {
         flex-direction: column;
     }
@@ -124,7 +123,6 @@
     .section_third_320_pic {
         display: block;
         max-height: 261px;
-        /* margin-bottom: -48px; */
         width: 100%;
     }
     .third_text_big,
@@ -168,8 +166,8 @@
     .six_partner {
         margin: 0 0 16px 0;
         padding: 0;
+        width: 100%;
     }
-    /* не понимаю, что выталкивает "нашим" на след строчку */
     .six_partner br {
         display: none;
     }

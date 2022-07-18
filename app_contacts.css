@@ -30,12 +30,13 @@ h2 {
 }
 .container {
     display: flex;
+    justify-content: space-between;
 }
-.first_column {
+/* .first_column {
     width: 50%;
-}
+} */
 .text_big {
-    margin-right: 125px;
+    /* margin-right: 125px; */
     font-size: 32px;
     line-height: 110%;
     margin-bottom: 24px;
@@ -52,17 +53,16 @@ h2 {
     font-size: 24px;
     margin-bottom: 32px;
 }
-.second_column {
+/* .second_column {
     width: 50%;
-}
+} */
 .second_column img {
-    max-width: 635px;
+    width: 100%;
 }
 .section_fifth {
     display: flex;
     justify-content: center;
     background-color: #e5e5e5;
-    /* margin-top: -125px; */
 }
 .section_fifth p {
     font-weight: 700;
