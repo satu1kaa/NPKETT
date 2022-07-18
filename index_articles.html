@@ -11,30 +11,53 @@
      <link rel="stylesheet" href="./app_articles_media.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=PT+Sans:wght@400;700&display=swap"
-          rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
      <header>
           <div class="header_container header_info">
                <div class="header_top">
-                    <div class="header_info_logo"><a href="./index_bootstrap.html"><img src="./img/logo.svg" alt=""></a>
-                    </div>
+                    <div class="header_info_logo"><a href="./index.html"><img src="./img/logo.svg" alt=""></a></div>
                     <div class="phone_plus_button">
                          <div class="header_info_phone">8 (3822) 60-99-61</div>
                          <div class="media_button">
                               <button class="header_info_button">Заказать звонок</button>
-                              <div class="header_burger"><img src="./img/media/menu.svg" alt=""></div>
+                              <div class="header_burger" id="burger"><img src="./img/media/menu.svg" alt=""></div>
                          </div>
                     </div>
                </div>
           </div>
           <div class="header_container header_menu">
                <ul class="header_menu_list">
-                    <li><a class="list_margin" href="./index_products.html">продукция</a><img src="./img/arrow.svg"
-                              alt=""></li>
-                    <li><a class="list_margin" href="./index_services.html">услуги</a><img src="./img/arrow.svg" alt="">
+                    <li><a class="list_margin" href="./index_products.html">продукция</a><img src="./img/arrow.svg" alt="" id="openArrow">
+                         <div class="accordeon" id="accordeon" style="display: none;">
+                              <ul>
+                                   <li>Азот</li>
+                                   <li>Ацетилен</li>
+                                   <li>Ацетон технический</li>
+                                   <li>Аргон</li>
+                                   <li>Гашеная известь</li>
+                                   <li>Карбид кальция</li>
+                                   <li>Кислород</li>
+                                   <li>Пропан</li>
+                                   <li>Углекислота</li>
+                                   <li>Сопутствующее оборудование</li>
+                              </ul>
+                         </div>
+                    </li>
+                    <li><a class="list_margin" href="./index_services.html">услуги</a><img src="./img/arrow.svg" alt="" id="openArrow_2">
+                         <div class="accordeon" id="accordeon_2" style="display: none;">
+                              <ul>
+                                   <li>Доставка</li>
+                                   <li>Аренда баллона</li>
+                                   <li>Освидетельствование</li>
+                                   <li>Замена вентиля</li>
+                                   <li>Ремонт вентиля</li>
+                                   <li>Покраска баллона</li>
+                                   <li>Продувка</li>
+                              </ul>
+                         </div>
                     </li>
                     <li><a href="./index_licenses.html">лицензии</a></li>
                     <li><a href="./index_articles.html">новости</a></li>
@@ -43,11 +66,38 @@
                     <li><a href="./index_contacts.html">контакты</a></li>
                </ul>
           </div>
-          <div class="burger_menu">
-               <img src="./img/media/menu_cross.svg" alt="" class="cross">
+          <div class="burger_menu" id="menu" style="display: none;">
+               <img src="./img/media/menu_cross.svg" alt="" class="cross" id="close">
                <ul class="header_menu_list">
-                    <li><a class="list_margin" href="">продукция</a><img src="./img/arrow.svg" alt=""></li>
-                    <li><a class="list_margin" href="">услуги</a><img src="./img/arrow.svg" alt=""></li>
+                    <li><a class="list_margin" href="">продукция</a><img src="./img/arrow.svg" alt="">
+                         <!-- <div class="burger_accordeon" id="burger_accordeon" style="display: none;">
+                              <ul>
+                                   <li>Азот</li>
+                                   <li>Ацетилен</li>
+                                   <li>Ацетон технический</li>
+                                   <li>Аргон</li>
+                                   <li>Гашеная известь</li>
+                                   <li>Карбид кальция</li>
+                                   <li>Кислород</li>
+                                   <li>Пропан</li>
+                                   <li>Углекислота</li>
+                                   <li>Сопутствующее оборудование</li>
+                              </ul>
+                         </div> -->
+                    </li>
+                    <li><a class="list_margin" href="">услуги</a><img src="./img/arrow.svg" alt="">
+                         <!-- <div class="burger_accordeon" id="burger_accordeon_2" style="display: none;">
+                              <ul>
+                                   <li>Доставка</li>
+                                   <li>Аренда баллона</li>
+                                   <li>Освидетельствование</li>
+                                   <li>Замена вентиля</li>
+                                   <li>Ремонт вентиля</li>
+                                   <li>Покраска баллона</li>
+                                   <li>Продувка</li>
+                              </ul>
+                         </div> -->
+                    </li>
                     <li><a href="">лицензии</a></li>
                     <li><a href="">новости</a></li>
                     <li><a href="">поставщикам</a></li>
@@ -120,8 +170,7 @@
      <footer>
           <div class="footer_container">
                <div class="container_size">
-                    <div class="footer_container_logo"><a href="./index_bootstrap.html"><img src="./img/logo.svg"
-                                   alt=""></a></div>
+                    <div class="footer_container_logo"><a href="./index.html"><img src="./img/logo.svg" alt=""></a></div>
                     <div class="footer_list">
                          <div class="footer_links_list">
                               <div class="footer_products">
@@ -180,8 +229,7 @@
                                    <div>
                                         <p>634003, г. Томск, ул. Ачинская, д. 9, офис 501 — Главный офис</p>
                                         <p>г. Томск, Кузовлевский тракт, д. 4/3 — Производственно складская база</p>
-                                        <p class="footer_last_text footer_last_text_tablet">Разработка сайта 43DIGITAL
-                                        </p>
+                                        <p class="footer_last_text footer_last_text_tablet">Разработка сайта 43DIGITAL</p>
                                    </div>
                               </div>
                          </div>
