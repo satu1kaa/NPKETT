@@ -29,7 +29,6 @@ h2 {
     font-size: 32px;
     line-height: 110%;
     margin-bottom: 32px;
-    width: 540px;
 }
 
 .first_row {
@@ -40,7 +39,6 @@ h2 {
 .small_text {
     font-size: 18px;
     line-height: 150%;
-    width: 540px;
     margin-right: 28px;
 }
 
@@ -48,8 +46,7 @@ h2 {
     font-size: 18px;
     color: #03608f;
     border: 1px solid #00679c;
-    width: 285px;
-    height: 50px;
+    padding: 16px 69px;
 }
 
 .callback:hover {
@@ -58,8 +55,25 @@ h2 {
     color: #eaeff3;
 }
 
-.container {
-    display: flex;
+.grid_container {
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.grid_container_first {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.grid_container_second {
+    display: grid;
+    grid-column: span 2 / span 2;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
 }
 
 .container img {
@@ -73,15 +87,11 @@ h3 {
     margin-bottom: 16px;
 }
 
-.first_column {
-    display: flex;
-    flex-direction: column;
-}
-
-.card_one {
+.card {
     padding: 16px;
     background: #ffffff;
-    margin: 0 30px 32px 0;
+    grid-column: span 1 / span 1;
+    height: min-content;
 }
 
 .card_text {
@@ -89,31 +99,6 @@ h3 {
     line-height: 150%;
 }
 
-.card_two {
-    padding: 16px;
-    background: #ffffff;
-    margin: 0 30px 0 0;
-}
-
-.second_column {
-    display: flex;
-    flex-direction: column;
-}
-
-.card_three {
-    padding: 16px;
-    background: #ffffff;
-    margin: 0 30px 32px 0;
-}
-
-.card_four {
-    padding: 16px;
-    background: #ffffff;
-    margin: 0 30px 0 0;
-}
-
-.card_five {
-    padding: 16px;
-    background: #ffffff;
-    margin: 0 30px 32px 0;
+.width {
+    width: 100%;
 }

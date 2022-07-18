@@ -26,8 +26,6 @@ hr {
     display: flex;
     flex-direction: column;
     margin-bottom: 32px;
-    margin-right: 570px;
-    margin: 0 570px 32px 0;
 }
 .text_one {
     font-weight: 700;
@@ -40,10 +38,14 @@ hr {
     line-height: 150%;
 }
 .cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
 }
-.card_one {
-    padding-right: 30px;
+
+.card img {
+    width: 100%;
 }
 .card_text {
     margin-top: 16px;

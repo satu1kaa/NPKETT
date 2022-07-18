@@ -1,3 +1,9 @@
+@media (max-width: 1280px) {
+    .page_container {
+        max-width: 940px;
+    }
+}
+
 @media (max-width: 768px) {
     .page_container {
         padding: 65px 39px;
@@ -24,9 +30,15 @@
         margin-top: 32px;
     }
     .cards img {
-        max-width: 298px;
+        width: 100%;
     }
 }
+@media (max-width: 767px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 425px) {
     .page_container {
         padding: 65px 15px;
@@ -48,9 +60,6 @@
         padding: 16px 55px;
     }
     .cards img {
-        max-width: 258px;
-    }
-    .card_one {
-        margin: 0 0 32px 0;
+        width: 100%;
     }
 }

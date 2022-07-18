@@ -1,4 +1,10 @@
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
+    .page_container {
+        max-width: 940px;
+    }
+}
+
+@media (max-width: 1023px) {
     .page_container {
         padding: 65px 39px;
     }
@@ -31,7 +37,7 @@
         margin-top: 48px;
     }
 }
-@media (max-width: 425px) {
+@media (max-width: 667px) {
     .page_container {
         padding: 65px 15px;
     }

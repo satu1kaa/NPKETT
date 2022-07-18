@@ -13,7 +13,7 @@
         justify-content: left;
     }
     .page_container {
-        padding: 64px 49px 60px 39px;
+        padding: 64px 39px 60px 39px;
         display: flex;
     }
     .second_pic {
@@ -55,7 +55,7 @@
     .page_container_section_four {
         display: flex;
         flex-direction: column;
-        padding: 60px 115px;
+        padding: 60px 39px;
         justify-content: flex-start;
     }
     .fourth_number {

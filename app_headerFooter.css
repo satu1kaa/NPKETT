@@ -39,6 +39,7 @@ ul li {
 }
 .header_info_phone {
     margin-right: 100px;
+
 }
 .header_info_phone,
 .header_info_phone_burger {
@@ -48,6 +49,9 @@ ul li {
     font-size: 24px;
     line-height: 29px;
     color: #eaeff3;
+}
+.burger_menu .header_info_phone {
+    margin: 0 0 21px 0;
 }
 .header_info_button {
     background-color: #eaeff3;
@@ -186,21 +190,25 @@ footer li {
     }
     .burger_menu {
         padding: 60px 50px;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         height: 100vh;
         width: 100vw;
         background: #035178;
-        display: none;
+        z-index: 100;
         flex-direction: column;
         align-items: center;
         text-transform: uppercase;
     }
+
     .burger_menu .header_info_button,
     .header_info_phone_burger {
         display: block;
         margin: 0;
+    }
+    .burger_menu .header_info_phone {
+        display: block;
     }
     .burger_menu li {
         margin-bottom: 32px;
@@ -246,20 +254,22 @@ footer li {
         display: none;
     }
 }
+@media (max-width: 767px) {
+    .header_info_phone,
+    .header_info_button,
+    .header_menu {
+        display: none;
+    }
+    
+}
+
 /* Phone! */
 @media (max-width: 425px) {
     /* header! */
     .header_container {
         padding: 15px 15px 21px 15px;
     }
-    .header_info_phone,
-    .header_info_button,
-    .header_menu {
-        display: none;
-    }
-    .burger_menu .header_info_phone {
-        display: block;
-    }
+    
     /* footer! */
     .footer_container {
         padding: 40px 15px;

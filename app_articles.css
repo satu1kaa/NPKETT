@@ -28,23 +28,24 @@ hr {
     line-height: 110%;
     color: #000000;
     margin-bottom: 32px;
-    padding-right: 570px;
 }
 .card_text {
     font-size: 18px;
     line-height: 150%;
     margin-bottom: 32px;
-    padding-right: 570px;
 }
 .cards_first {
     display: flex;
 }
 .card {
     background: #ffffff;
-    margin-right: 30px;
-    margin-bottom: 32px;
     padding: 16px;
 }
+
+.card img {
+    width: 100%;
+}
+
 .text_one {
     font-weight: 700;
     font-size: 24px;
@@ -54,9 +55,6 @@ hr {
 .text_two {
     font-size: 16px;
     line-height: 150%;
-}
-.cards_second {
-    display: flex;
 }
 .button_show {
     display: flex;
@@ -74,3 +72,12 @@ hr {
     cursor: pointer;
     background: #84bfdc;
 }
+
+.cards_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-bottom: 30px;
+}
+

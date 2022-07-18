@@ -98,19 +98,21 @@ h2 a {
     opacity: 0.3;
 }
 .cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
 }
-.card_one {
+
+.card {
     background: #ffffff;
-    margin-right: 30px;
     padding: 16px;
+    grid-column: span 1 / span 1;
 }
-.card_two {
-    background: #ffffff;
-    padding: 16px;
-}
+
 .cards img {
     margin-bottom: 16px;
+    width: 100%;
 }
 .card_text_one {
     font-size: 24px;

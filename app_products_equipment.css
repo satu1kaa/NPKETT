@@ -27,10 +27,13 @@ hr {
 }
 .container_first {
     margin-right: 30px;
+    width: 50%;
+    z-index: 100;
+    background: url("img/products_equipment/products_equipment_first_pic.png");
+    background-size: cover;
+    background-position: center;
 }
-.container_first_768 {
-    display: none;
-}
+
 h1 {
     font-weight: 700;
     font-size: 32px;
@@ -43,26 +46,20 @@ h1 {
     line-height: 30px;
 }
 .price {
-    width: 285px;
-    height: 50px;
+    padding: 16px 84px;
     color: #03608f;
     background: #eecc1c;
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-bottom: 32px;
 }
 .price img {
     margin-right: 10px;
 }
 .more_info {
-    width: 285px;
-    height: 50px;
+    padding: 16px 84px;
     border: 1px solid #00679c;
     color: #03608f;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 h2 {
@@ -75,18 +72,18 @@ h2 {
     opacity: 0.3;
 }
 .cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
 }
-.card_one {
-    background: #ffffff;
-    margin-right: 30px;
-    padding: 16px;
-}
-.card_two {
+.card {
     background: #ffffff;
     padding: 16px;
 }
-.cards img {
+
+.card img {
+    width: 100%;
     margin-bottom: 16px;
 }
 .card_text_one {
