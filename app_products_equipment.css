@@ -53,6 +53,10 @@ h1 {
     margin-bottom: 32px;
     width: 285px;
 }
+.price:hover {
+    background: #ffea7d;
+    cursor: pointer;
+}
 .price img {
     margin-right: 10px;
 }
@@ -62,9 +66,23 @@ h1 {
     color: #03608f;
     width: 285px;
 }
+.more_info:hover {
+    background: #03608f;
+    cursor: pointer;
+    color: #eaeff3;
+}
 h2 {
     margin-bottom: 16px;
     margin-top: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #000000;
+    opacity: 0.3;
+}
+h2 a {
+    margin-top: 48px;
+    margin-bottom: 16px;
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
