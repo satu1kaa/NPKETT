@@ -28,24 +28,14 @@
         flex-direction: column;
     }
     .third_container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .third_container {
         margin-bottom: 32px;
         margin-right: 0;
     }
     .third_container br {
         display: none;
-    }
-    .section_third_1920_pic {
-        display: none;
-    }
-    .section_third_tablet_pic {
-        display: block;
-        width: 100%;
-    }
-    .third_text_big {
-        padding: 16px 16px 4px 16px;
-    }
-    .third_text_small {
-        padding: 0 16px 4px 16px;
     }
     .section_fourth {
         display: flex;
@@ -57,8 +47,10 @@
         padding: 60px 39px;
         justify-content: flex-start;
     }
-    .fourth_number {
+    .fourth_number,
+    .fourth_car {
         margin-bottom: 30px;
+        margin-left: 100px;
     }
     .section__logo-list {
         display: flex;
@@ -87,16 +79,21 @@
     .six_buy button {
         padding: 16px 60px;
     }
-}
-@media (max-width: 767px) {
-    .second_pic,
-    .section_third_tablet_pic {
+    .section_third_card:last-of-type {
         display: none;
     }
+}
+@media (max-width: 767px) {
     .production {
         font-weight: 700;
         font-size: 45px;
         line-height: 110%;
+    }
+}
+@media (max-width: 667px) {
+    .third_container {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
     }
 }
 @media (max-width: 425px) {
@@ -119,11 +116,6 @@
     .section_third_tablet_pic {
         display: none;
     }
-    .section_third_320_pic {
-        display: block;
-        max-height: 261px;
-        width: 100%;
-    }
     .third_text_big,
     .third_text_small {
         padding: 0;
@@ -131,12 +123,8 @@
     .third_text_big {
         font-size: 26px;
     }
-    .number_1920 {
+    .button_news {
         display: none;
-    }
-    .number_small,
-    .car_small {
-        display: block;
     }
     .page_container_section_four p {
         font-size: 24px;
@@ -146,8 +134,11 @@
         display: none;
     }
     .fourth_number {
-        margin: 0 0 30px 0;
         justify-content: unset;
+    }
+    .fourth_number,
+    .fourth_car {
+        margin: 0;
     }
     .fifth_container p {
         margin-bottom: 10px;

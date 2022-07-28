@@ -8,14 +8,23 @@
     .page_container {
         padding: 65px 39px;
     }
-    .wrapper {
-        grid-template-columns: 1fr 1fr;
+    .card {
+        height: 120px;
     }
 }
 
 @media (max-width: 425px) {
     .page_container {
         padding: 65px 15px;
+    }
+    .wrapper_1920 {
+        display: none;
+    }
+    .wrapper_425 {
+        display: grid;
+    }
+    h3 {
+        font-size: 24px;
     }
     .services {
         padding-right: 0;
@@ -24,6 +33,23 @@
     }
     .wrapper {
         grid-template-columns: 1fr;
+        column-gap: 30px;
+        row-gap: 30px;
     }
-    
+    .card {
+        height: 100px;
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .box1,
+    .box2,
+    .box3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+    .card_1 {
+        grid-column: 1 / span 2;
+    }
 }

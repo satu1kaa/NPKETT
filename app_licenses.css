@@ -11,31 +11,34 @@
     flex-direction: column;
 }
 .main_services {
+    display: flex;
     font-size: 16px;
     line-height: 150%;
-    opacity: 0.3;
-    padding-bottom: 32px;
+    color: #000000;
+    margin-bottom: 10px;
 }
-hr {
-    height: 3;
-    border: none;
-    border-top: 1px solid #333;
-    margin-top: 13px;
+.main_services_blue {
+    color: #03608f;
 }
-.licenses {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 32px;
+.main_services_grey {
+    color: #777777;
 }
-.text_one {
+.line {
+    margin-bottom: 24px;
+}
+h3 {
     font-weight: 700;
-    font-size: 32px;
-    line-height: 110%;
-    margin-bottom: 32px;
+    font-size: 30px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #035178;
+    margin-bottom: 60px;
+    margin-top: 40px;
 }
 .text_two {
     font-size: 18px;
     line-height: 150%;
+    margin-bottom: 60px;
 }
 .cards {
     display: grid;
@@ -43,12 +46,74 @@ hr {
     column-gap: 30px;
     row-gap: 30px;
 }
-
 .card img {
     width: 100%;
 }
 .card_text {
-    margin-top: 16px;
+    margin-top: 10px;
     font-size: 18px;
     line-height: 23px;
+}
+.section_fourth {
+    background-color: #03608f;
+    display: flex;
+    justify-content: center;
+}
+
+.section_fourth .page_container {
+    display: flex;
+    justify-content: space-between;
+}
+.page_container_section_four {
+    flex-direction: row;
+}
+.number_small,
+.car_small {
+    display: none;
+}
+
+.fourth_number {
+    display: flex;
+    align-items: center;
+}
+
+.fourth_car {
+    display: flex;
+    align-items: center;
+}
+
+.section_fourth img {
+    padding-right: 25px;
+}
+
+.section_fourth p {
+    font-size: 32px;
+    line-height: 120%;
+    color: #f3f3f3;
+}
+
+.section_fifth {
+    display: flex;
+    justify-content: center;
+}
+
+.fifth_container {
+    width: 100%;
+}
+
+.section__logo-list {
+    margin-top: 80px;
+}
+
+.logo-list__first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.logo-list__second-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }

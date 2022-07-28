@@ -7,24 +7,35 @@
     .page_container {
         padding: 64px 39px;
     }
-    
-    .cards_container {
-        grid-template-columns: 1fr 1fr;
+    .card_container {
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    .cards_first,
-    .cards_second {
-        flex-direction: column;
+    .card img {
+        width: 100%;
+    }
+    .card_wrapper {
+        padding: 10px;
+    }
+    .card_off {
+        display: none;
+    }
+    .button_show {
+        margin-bottom: 64px;
     }
 }
 @media (max-width: 425px) {
     .page_container {
         padding: 64px 15px;
     }
-    .card_caption {
+    h3 {
         font-size: 24px;
-        line-height: 120%;
+        margin-bottom: 40px;
+        margin-top: 0;
     }
-    .cards_container {
+    .card_container {
         grid-template-columns: 1fr;
+    }
+    .card_off_2 {
+        display: none;
     }
 }
