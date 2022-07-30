@@ -9,7 +9,7 @@
     }
     .section_first_price {
         width: 100%;
-        padding: 64px 30px; 
+        padding: 64px 30px;
     }
 }
 
@@ -18,7 +18,7 @@
         width: 100%;
         justify-content: flex-start;
     }
-    
+
     .production_container {
         width: 100%;
     }

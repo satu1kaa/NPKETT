@@ -22,33 +22,62 @@ hr {
     border-top: 1px solid #333;
     margin-top: 13px;
 }
-h2 {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 110%;
-    margin-bottom: 48px;
-}
 .container {
     display: flex;
     justify-content: space-between;
 }
-
-.text_big {
-    font-size: 32px;
-    line-height: 110%;
+.main_services {
+    display: flex;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.main_services_blue {
+    color: #03608f;
+}
+.main_services_grey {
+    color: #777777;
+}
+.line {
     margin-bottom: 24px;
 }
-.text_small {
-    font-size: 24px;
-    margin-bottom: 56px;
-}
-.text_bold {
+h3 {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 30px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #035178;
+    margin-bottom: 30px;
 }
-.text_small_2 {
-    font-size: 24px;
-    margin-bottom: 32px;
+.first_column,
+.second_column {
+    width: 50%;
+}
+.container_text {
+    font-size: 20px;
+    line-height: 150%;
+    color: #333333;
+    max-width: 540px;
+    margin-bottom: 30px;
+}
+.first_column p {
+    font-size: 20px;
+    line-height: 150%;
+}
+.text_big {
+    font-weight: 700;
+    color: #035178;
+    margin-bottom: 10px;
+}
+.text_small {
+    color: #333333;
+    margin-bottom: 10px;
+}
+.phone {
+    text-decoration-line: underline;
+    color: #035178;
+    margin-bottom: 10px;
 }
 .second_column img {
     width: 100%;
@@ -56,32 +85,29 @@ h2 {
 .section_fifth {
     display: flex;
     justify-content: center;
-    background-color: #e5e5e5;
 }
-.section_fifth p {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 100%;
-    color: #000000;
-    margin-bottom: 2px;
-}
+
 .fifth_container {
     width: 100%;
 }
+
 .section__logo-list {
     margin-top: 80px;
 }
+
 .logo-list__first-row {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 50px;
 }
+
 .logo-list__second-row {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
+
 .section_six {
     background-image: url(./img/intro/intersect.svg);
     background-color: #03608f;
@@ -89,29 +115,35 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
 .six_container {
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 .six_partner {
     font-size: 48px;
     line-height: 120%;
     color: #f3f3f3;
     margin-right: 126px;
+    font-weight: 700;
 }
+
 .six_buy {
     font-size: 24px;
     line-height: 120%;
     color: #f3f3f3;
 }
+
 .six_buy button {
     margin-top: 10px;
     background-color: #eecc1c;
     padding: 16px 70px;
     color: #035178;
 }
+
 .six_buy button:hover {
-    background: #ffea7d;
     cursor: pointer;
+    background: #ffea7d;
 }
