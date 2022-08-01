@@ -11,116 +11,133 @@
     flex-direction: column;
 }
 .main_services {
+    display: flex;
     font-size: 16px;
     line-height: 150%;
-    opacity: 0.3;
-    padding-bottom: 32px;
+    color: #000000;
+    margin-bottom: 10px;
 }
-hr {
-    height: 3;
-    border: none;
-    border-top: 1px solid #333;
-    margin-top: 13px;
+.main_services_blue {
+    color: #03608f;
 }
-h1 {
+.main_services_grey {
+    color: #777777;
+}
+.line {
+    margin-bottom: 24px;
+}
+h3 {
     font-weight: 700;
-    font-size: 32px;
-    line-height: 110%;
+    font-size: 30px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #035178;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.container_text {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333333;
     margin-bottom: 30px;
 }
-.row {
+.container_img {
     margin-bottom: 30px;
-    display: flex;
 }
-.row_left {
-    margin-right: 30px;
-    width: 50%;
+.temporary_box {
+    font-size: 100px;
 }
-.row_right {
+.card_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 25px;
+    margin-bottom: 60px;
+}
+.card {
+    border: 1px solid white;
+    background: #ffffff;
+}
+.card:hover {
+    border: 1px solid #03608f;
+    box-shadow: 0px 5px 30px rgba(31, 36, 102, 0.1);
+    cursor: pointer;
+    background: #f0faff;
+}
+.card_wrapper {
     display: flex;
     flex-direction: column;
-    background: #00679c;
-    padding: 46px 111px;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+    justify-content: space-between;
+    padding: 20px;
+    height: 140px;
 }
-.assortiment_all {
-    font-size: 32px;
-    line-height: 100%;
-    text-align: center;
-    color: #f3f3f3;
-    margin-bottom: 16px;
+.card_main_text {
+    font-size: 16px;
+    line-height: 150%;
+    color: #333333;
+    text-transform: uppercase;
 }
-.price {
+.card_text {
+    font-size: 14px;
+    line-height: 120%;
+    color: #777777;
+}
+h2 a {
+    font-size: 18px;
+    line-height: 150%;
+    color: #333333;
+}
+
+.section_six {
+    background-image: url(./img/intro/intersect.svg);
+    background-color: #03608f;
+    background-size: cover;
     display: flex;
+    justify-content: center;
+}
+
+.six_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.six_partner {
+    font-size: 48px;
+    line-height: 120%;
+    color: #f3f3f3;
+    margin-right: 30px;
+}
+.button_download {
+    display: flex;
+    background-color: #ffffff;
+    font-size: 18px;
+    line-height: 100%;
+    color: #03608f;
+    margin-bottom: 22px;
     align-items: center;
     justify-content: center;
+    padding: 18.5px 40px 18.5px 69px;
+}
+.button_download:hover {
+    cursor: pointer;
+    background: #c3eafd;
+}
+.button_download img {
+    margin-right: 10px;
+}
+.button_catalog {
+    width: 100%;
     background: #eecc1c;
     font-size: 18px;
     line-height: 100%;
-    color: #03608f;
-    padding: 14px 69px;
-    width: 100%;
-}
-.price:hover {
-    background: #ffea7d;
-    cursor: pointer;
-}
-.price img {
-    padding-right: 10px;
-}
-.more_info {
-    background: #00679c;
-    padding: 16px 71.5px;
-    font-size: 18px;
-    color: #eaeff3;
+    color: #035178;
     border: 1px solid #eaeff3;
-}
-.more_info:hover {
-    background: #eaeff3;
-    cursor: pointer;
-    color: #03608f;
-}
-h3 {
-    font-size: 24px;
-    line-height: 31px;
-    margin-bottom: 16px;
-}
-h2,
-h2 a {
-    margin-top: 48px;
-    margin-bottom: 16px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 120%;
-    color: #000000;
-    opacity: 0.3;
-}
-.cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 30px;
-    row-gap: 30px;
-}
-.card {
-    background: #ffffff;
-    padding: 16px;
-    grid-column: span 1 / span 1;
+    padding: 18.5px 59.5px;
 }
 
-.cards img {
-    margin-bottom: 16px;
-    width: 100%;
-}
-.card_text_one {
-    font-size: 24px;
-    line-height: 120%;
-    color: #000000;
-    margin-bottom: 16px;
-}
-.card_text_two {
-    font-size: 16px;
-    line-height: 150%;
-    color: #000000;
+.button_catalog:hover {
+    cursor: pointer;
+    background: #ffea7d;
 }
