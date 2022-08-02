@@ -11,22 +11,6 @@
     flex-direction: column;
 }
 .main_services {
-    font-size: 16px;
-    line-height: 150%;
-    opacity: 0.3;
-    padding-bottom: 32px;
-}
-hr {
-    height: 3;
-    border: none;
-    border-top: 1px solid #333;
-    margin-top: 13px;
-}
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-.main_services {
     display: flex;
     font-size: 16px;
     line-height: 150%;
@@ -49,6 +33,9 @@ h3 {
     text-transform: uppercase;
     color: #035178;
     margin-bottom: 30px;
+}
+.container {
+    display: flex;
 }
 .first_column,
 .second_column {
@@ -109,7 +96,7 @@ h3 {
 }
 
 .section_six {
-    background-image: url(./img/intro/intersect.svg);
+    background-image: url(../img/intro/intersect.svg);
     background-color: #03608f;
     background-size: cover;
     display: flex;

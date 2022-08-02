@@ -90,7 +90,7 @@ h2 a {
 }
 
 .section_six {
-    background-image: url(./img/intro/intersect.svg);
+    background-image: url(../img/intro/intersect.svg);
     background-color: #03608f;
     background-size: cover;
     display: flex;

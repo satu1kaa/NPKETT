@@ -1,5 +1,5 @@
 .section_first {
-    background-image: url(./img/intro/firstPic.png);
+    background-image: url(../img/intro/firstPic.png);
     background-size: cover;
     justify-content: center;
 }
@@ -260,7 +260,7 @@ h3 {
 }
 
 .section_six {
-    background-image: url(./img/intro/intersect.svg);
+    background-image: url(../img/intro/intersect.svg);
     background-color: #03608f;
     background-size: cover;
     display: flex;
