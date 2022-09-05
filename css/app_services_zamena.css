@@ -35,7 +35,7 @@ hr {
 }
 .container_first {
     z-index: 100;
-    background: url("img/services_zamena/first_pic_1920.png");
+    background: url(./img/services_zamena/first_pic_1920.png);
     background-size: cover;
     background-position: center;
 }

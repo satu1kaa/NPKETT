@@ -40,7 +40,7 @@
     .logo-list__second-row {
         flex-direction: column;
     }
-    .cards {
+    .cards_licenses {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -58,10 +58,10 @@
     h3 {
         font-size: 24px;
     }
-    .text_two {
+    .licenses_text_two {
         margin-right: 0;
     }
-    .cards {
+    .cards_licenses {
         grid-template-columns: 1fr;
     }
     .section_fourth p {
