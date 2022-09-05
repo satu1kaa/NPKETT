@@ -35,7 +35,7 @@ h2 {
     margin-bottom: 32px;
     margin-top: 32px;
 }
-.container {
+.grid_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 30px;

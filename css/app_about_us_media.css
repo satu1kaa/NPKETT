@@ -4,14 +4,14 @@
     }
 }
 @media (max-width: 1023px) {
-    .container {
+    .grid_container {
         grid-template-columns: 1fr;
     }
     .media_img {
         display: block;
         width: 100%;
     }
-    .second_column {
+    .grid_second_column {
         display: none;
     }
     .section__logo-list {
