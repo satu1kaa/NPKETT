@@ -1,0 +1,342 @@
+@media (max-width: 1280px) 
+{
+
+    /* main page */
+
+    .page_container {
+        max-width: 940px;
+    }
+    .second_pic img {
+        width: 100%;
+        display: block;
+    }
+    .section_first_price {
+        width: 100%;
+        padding: 64px 30px;
+    }
+}
+
+
+@media (max-width: 1023px) {
+
+    /* main page */
+
+    .section_first_price {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .production_container {
+        width: 100%;
+    }
+    .container {
+        padding: 0;
+        max-width: 100%;
+    }
+    .page_container {
+        padding: 65px 39px;
+    }
+    .list_cards {
+        grid-template-columns: 1fr;
+    }
+    .page_container_section_third {
+        display: flex;
+        flex-direction: column;
+    }
+    .third_container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .third_container {
+        margin-bottom: 32px;
+        margin-right: 0;
+    }
+    .third_container br {
+        display: none;
+    }
+    .section_fourth {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .section_fourth .page_container{
+        display: flex;
+        flex-direction: column;
+        padding: 60px 39px;
+        justify-content: flex-start;
+    }
+    .fourth_number {
+        margin-bottom: 30px;
+    }
+    .section__logo-list {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .client-logo {
+        margin-bottom: 22px;
+        width: 100%;
+    }
+    .logo-list__first-row {
+        flex-direction: column;
+        margin-bottom: 0px;
+        margin-right: 30px;
+    }
+    .logo-list__second-row {
+        flex-direction: column;
+    }
+    .six_partner {
+        width: 50%;
+        margin: 0 60px 0 0;
+    }
+    .six_partner br {
+        display: none;
+    }
+    .six_buy button {
+        padding: 16px 60px;
+    }
+    .section_third_card:last-of-type {
+        display: none;
+    }
+    .list_card:nth-child(4),
+    .list_card:nth-child(5),
+    .list_card:nth-child(6) {
+        display: none;
+    }
+
+    /* licenses */
+
+    .licenses {
+        margin-bottom: 32px;
+    }
+
+    /* press */
+
+    .press_card_container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .press_card img {
+        width: 100%;
+    }
+    .press_card_wrapper {
+        padding: 10px;
+    }
+    .card_off {
+        display: none;
+    }
+    .button_show {
+        margin-bottom: 64px;
+    }
+
+    /* about us */
+
+    .grid_container {
+        grid-template-columns: 1fr;
+    }
+    .media_img {
+        display: block;
+        width: 100%;
+    }
+    .grid_second_column {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    /* products */
+    .page_container {
+        padding: 65px 39px;
+    }
+    .card {
+        height: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* main page */
+    .production {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 110%;
+    }
+}
+
+@media (max-width: 667px) {
+    /* main page */
+    .third_container {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
+    .second_pic {
+        display: none;
+    }
+
+    .page_container_section_four {
+        display: flex;
+        flex-direction: column;
+        padding: 60px 39px;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 576px) {
+    /* services */
+    .page_container {
+        padding: 65px 15px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    .wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .card {
+        height: 100px;
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .card_1 {
+        grid-column: 1 / span 2;
+    }
+}
+
+@media (max-width: 425px) {
+    /* main page */
+    .section_first_price {
+        padding: 50px 15px;
+    }
+
+    .production {
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 110%;
+    }
+
+    .section_first br {
+        display: none;
+    }
+
+    .page_container {
+        padding: 65px 15px 65px 15px;
+    }
+
+    .second_pic,
+    .section_third_tablet_pic {
+        display: none;
+    }
+
+    .third_text_big,
+    .third_text_small {
+        padding: 0;
+    }
+
+    .third_text_big {
+        font-size: 26px;
+    }
+
+    .button_news {
+        display: none;
+    }
+
+    .page_container_section_four p {
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    .page_container_section_four br {
+        display: none;
+    }
+
+    .fourth_number {
+        justify-content: unset;
+    }
+
+    .fourth_number,
+    .fourth_car {
+        margin: 0;
+    }
+
+    .fifth_container p {
+        margin-bottom: 10px;
+    }
+
+    .six_container {
+        flex-direction: column;
+    }
+
+    .six_partner {
+        margin: 0 0 16px 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .six_partner br {
+        display: none;
+    }
+
+    .six_buy p {
+        margin-bottom: 32px;
+    }
+
+    /* products */
+
+    .wrapper_425 {
+        display: grid;
+    }
+    .other_caption {
+        font-size: 24px;
+    }
+    .services {
+        padding-right: 0;
+        font-size: 24px;
+        line-height: 120%;
+    }
+    .wrapper {
+        grid-template-columns: 1fr;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+    .card {
+        height: 100px;
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .box1,
+    .box2,
+    .box3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+    .card_1 {
+        grid-column: 1 / span 2;
+    }
+    /* licenses */
+    .licenses_text_two {
+        margin-right: 0;
+    }
+    .cards_licenses {
+        grid-template-columns: 1fr;
+    }
+    .section_fourth p {
+        font-size: 24px;
+    }
+
+    /* press */
+
+    .press_card_container {
+        grid-template-columns: 1fr;
+    }
+    .card_off_2 {
+        display: none;
+    }
+    
+    /* contacts */
+
+    .container_contacts {
+        flex-direction: column;
+    }
+    .first_column,
+    .second_column {
+        width: 100%;
+    }
+}

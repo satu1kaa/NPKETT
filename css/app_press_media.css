@@ -7,13 +7,13 @@
     .page_container {
         padding: 64px 39px;
     }
-    .card_container {
+    .press_card_container {
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .card img {
+    .press_card img {
         width: 100%;
     }
-    .card_wrapper {
+    .press_card_wrapper {
         padding: 10px;
     }
     .card_off {
@@ -32,7 +32,7 @@
         margin-bottom: 40px;
         margin-top: 0;
     }
-    .card_container {
+    .press_card_container {
         grid-template-columns: 1fr;
     }
     .card_off_2 {
